@@ -21,10 +21,7 @@ export default function AboutUs(){
                         <p className='text-about-us'>Nos adaptamos a las <strong>necesidades de tu negocio</strong></p>
                     </div>
                </div>
-                
             </div>
-
-
         </main>
     )
 }
