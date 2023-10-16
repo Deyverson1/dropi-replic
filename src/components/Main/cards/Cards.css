@@ -1,6 +1,7 @@
 .main-card-container{
     box-sizing: border-box;
     margin-top: 46px;
+    padding-bottom: 32px;
 }
 .main-card-action{
     width: 100%;
@@ -19,7 +20,7 @@
 }
 .main-card-image{
     width: 48px;
-    height: 50px;
+    height: 49px;
 
 }
 .main-card-paragraph{
