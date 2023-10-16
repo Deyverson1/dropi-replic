@@ -1,0 +1,28 @@
+.navigation-header{
+    display: flex;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 99;
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navigation-image{
+    width: 100px;
+    max-width: 100px;
+}
+.navigation-icon-container{
+    border-radius: 5px;
+    background-color: #E5EAEF;
+    margin: 8px 15px;
+}
+.navigation-icon{
+    width: 22px;
+    padding: 5.5px;
+}
