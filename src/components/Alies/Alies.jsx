@@ -2,6 +2,12 @@ import './Alies.css'
 export default function Alies(){
     return(
         <section>
+            <section >
+                <div className='alies-cap-container'>
+                    <h3 className='alies-cap-text'>Potencia tus habilidades</h3>
+                    <button className='alies-cap-button'>Capacítate</button>
+                </div>
+            </section>
             <section className='alies-contact-container'>
                 <div>
                     <img className='alies-contact-image' src="https://dropi.co/wp-content/uploads/2023/06/mapa-latam-FINAL.png" alt="" />
