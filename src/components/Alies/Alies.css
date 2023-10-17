@@ -1,0 +1,102 @@
+.alies-contact-container{
+    background-color: #ec6f2d;
+    text-align: center;
+}
+.alies-contact-image{
+    width: 375px;
+}
+.alies-contact-text-field{
+    color: #ffffff;
+ 
+    padding: 0 10px;
+    padding-bottom: 32px;
+    padding-top: 10px;
+}
+.alies-contact-text-field h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.alies-contact-text-field h5{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .5rem;
+}
+.alies-contact-text-field span{
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #ec6f2d;
+    padding: .2rem;
+}
+.alies-contact-text-field span em strong{
+    font-weight: 900;
+}
+
+.alies-contact-text-field h6{
+    font-size: 14px;
+    font-weight: 500;
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+.alies-contact-text-field button{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ec6f2d;
+    border: none;
+    border-radius: 8px;
+    padding:  12px 24px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alies-container-proveedores{
+    height: 405px;
+    background-image: url("https://dropi.co/wp-content/uploads/2023/05/trabaja_con_-nosotros_cta.png");
+    text-align: center;
+    top: 50%;
+    position: relative;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.alies-container-proveedores-text{
+    top: 37%;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+}
+.alies-container-proveedores-button{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 41.8%;
+    color: #ffffff;
+    border: none;
+    background-color: #ec6f2d;
+    border-radius: 6px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
