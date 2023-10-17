@@ -25,12 +25,13 @@
 }
 .register-country-name{
     text-transform: uppercase;
-    padding: 8px;
+    padding: 8px 0;
     font-size: 14px;
     font-weight: 500;
     color: #ec6f2d;
 }
 .register-country-button{
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     color: #ffffff;
     font-weight: 700;
