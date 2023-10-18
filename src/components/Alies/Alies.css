@@ -22,19 +22,16 @@
     padding: 15px 30px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 700ab;
 }
 
-
-
-
-
-
-
-
-
-
-
+.alies-video{
+    width: 375px;
+    height: 211px;
+    border: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 
 
