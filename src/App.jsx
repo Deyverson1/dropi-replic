@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Register from './components/Register/Register';
+import WhatsApp from './components/WhatsApp/WhatsApp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Alies/>
       <Register />
       <Footer />
+      <WhatsApp/>
     </>
    
   )

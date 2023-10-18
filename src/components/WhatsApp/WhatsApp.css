@@ -1,0 +1,20 @@
+@keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateX(0px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); 
+    }
+  }
+  .whatsapp-image {
+    position: fixed;
+    width: 60px;
+    bottom: 2%;
+    right: 1%; 
+    background-color: #ffffff;
+    border-radius: 50%;
+    border-color: #000000;
+    animation: aparecer 2s ease-in-out; 
+  }
