@@ -1,0 +1,27 @@
+.carousel-container{
+    padding-top: 64px;
+    padding-bottom: 1rem;
+}
+.carousel-container h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ec6f2d;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slide-container{
+    height: 92.55px;
+}
+.carousel{
+    height: 100%;
+}
+
+.div-carousel{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+.image{
+    width: 98.33px;
+    height: 65.55px;
+}

@@ -1,9 +1,10 @@
+import Carrusel from '../Carrusel/Carrusel'
 import './Alies.css'
 export default function Alies(){
     return(
         <section>
             <section>
-                
+                <Carrusel/>
             </section>
             <section >
                 <div className='alies-cap-container'>
