@@ -21,6 +21,8 @@
 .main-card-image{
     width: 48px;
     height: 49px;
+    object-fit: contain;
+    vertical-align: middle;
 
 }
 .main-card-paragraph{
@@ -29,4 +31,26 @@
     font-size: 16px;
     font-weight: 500;
     color: #3d3d3d;
+}
+@media screen and (min-width: 1200px) {
+    .main-card-action{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0px;
+        
+    }
+    .card-content{
+        flex-direction: center;
+        width: 170px;
+        padding: 10px;
+    }
+    .main-card-image{
+        width: 64px;
+        height: 80px;
+        object-fit: contain;
+        vertical-align: middle;
+    }
+    .main-card-paragraph{
+        padding-top: 0;
+    }
 }
