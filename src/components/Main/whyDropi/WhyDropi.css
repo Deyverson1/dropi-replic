@@ -11,7 +11,7 @@
     width: 311px;
 }
 .why-us-tittle{
-    font-size: 24px;
+    font-size: 24px; 
     font-weight: 700;
     text-transform: uppercase;
     color: #3d3d3d;
@@ -50,6 +50,7 @@
     }
     .text-why-us{
         width: 460px;
+        font-weight: 500;
     }
     .list-container{
         padding: 20px;

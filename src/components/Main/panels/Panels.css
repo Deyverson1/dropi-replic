@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0 32px;
     padding-top: 16px;
-    padding-bottom: 64;
+    padding-bottom: 64px;
 }
 .panels-container{
     display: flex;
@@ -23,7 +23,7 @@
     padding: 1rem;
 }
 .panels-text{
-    font-size: 14px;
+    font-size: 14px; 
     line-height: 21px;
     font-weight: 500;
     color: #3d3d3d;
@@ -38,4 +38,17 @@
     border: none;
     border-radius: 2px;
     padding: .5rem 1rem;
+}
+@media screen and (min-width: 1200px) {
+    .panels-container{
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .panels-list{
+        width: 300px; 
+    }
+    .panels-tittle{
+        padding: 1rem 2rem;
+    }
 }
