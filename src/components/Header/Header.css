@@ -26,3 +26,41 @@
     width: 22px;
     padding: 5.5px;
 }
+.navigation-links-container{
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .navigation-header{
+        padding: 1.1rem 0;
+    }
+    .navigation-container{
+        justify-content: space-evenly;
+        gap: 200px;
+    }
+    .navigation-icon-container{
+        display: none;
+    }
+    .navigation-links-container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .navigation-links-container a{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        color: #5b5b5b;
+    }
+    .navigation-button{
+        padding: 8px 15px;
+        background-color: #eC6f2d;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        color: #ffffff;
+    }
+}

@@ -10,6 +10,13 @@ export default function Header() {
                 <div className='navigation-icon-container'>
                     <FontAwesomeIcon className='navigation-icon' icon={faBars} size='lg'/>
                 </div>
+                <div className='navigation-links-container'>
+                    <a href="#">Dropicard</a>
+                    <a href="#">¿Qué perfil eres?</a>
+                    <a href="#">Proveedores</a>
+                    <a href="#">Iniciar sesión</a>
+                    <button className='navigation-button'>Registrate</button>
+                </div>
             </div>
         </header>
     );
