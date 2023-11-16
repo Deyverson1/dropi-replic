@@ -17,7 +17,6 @@ div a{
     text-decoration: none;
     color: #ffffff;
 }
-
 .footer-links-us, .footer-links-terms, .footer-links-contact{
     display: flex;
     flex-direction: column;
@@ -30,12 +29,6 @@ div a{
 .footer-links-us, .footer-links-terms{
     padding-bottom: 2rem;
 }
-
-
-
-
-
-
 .footer-final-section{
     display: flex;
     flex-direction: column;
@@ -48,9 +41,6 @@ div a{
     line-height: 15px;
     font-weight: 500;
 }
-
-
-
 .footer-social-media{
     padding-top: 2.5rem;
     padding-bottom: .5rem;
@@ -58,4 +48,29 @@ div a{
 .footer-social-media a{
     padding: .55rem;
 
+}
+@media screen and (min-width: 1200px) {
+
+    .footer-links{
+       display: flex;
+       flex-direction: column;
+    }
+    .footer-final-section{
+        display: flex;
+    }
+    .links-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer-final-section{
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .footer-social-media{
+        padding: 0;
+    }
+    .footer-image{
+        padding-left: 18vh;
+    }
 }

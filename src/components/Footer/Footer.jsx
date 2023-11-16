@@ -13,6 +13,7 @@ export default function Footer(){
         <footer className='footer-container'>
             <main className='footer-links'>
             <img className='footer-image' src="https://dropi.co/wp-content/uploads/2023/05/logo_dropi_light.png" alt="" />
+            <section className='links-container'>
             <div className='footer-links-us'>
                 <a href="#">Contacto</a>
                 <a href="#">Capacitaciones Dropi</a>
@@ -27,6 +28,7 @@ export default function Footer(){
                 <a href="#">comercial@dropi.co</a>
                 <a href="#">Trabaja con Nosotros</a>
             </div>
+            </section>
             </main>
            <div className='footer-final-section'>
                 <div>
