@@ -50,7 +50,9 @@ div a{
 
 }
 @media screen and (min-width: 1200px) {
-
+    .footer-container{
+        padding: 0 200px;
+    }
     .footer-links{
        display: flex;
        flex-direction: column;
@@ -60,9 +62,10 @@ div a{
     }
     .links-container{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .footer-final-section{
+        width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
         
@@ -70,7 +73,5 @@ div a{
     .footer-social-media{
         padding: 0;
     }
-    .footer-image{
-        padding-left: 18vh;
-    }
+
 }
