@@ -46,6 +46,7 @@
 .alies-contact-container{
     background-color: #ec6f2d;
     text-align: center;
+    background-image: url(https://dropi.co/wp-content/uploads/2023/06/FONDO-LATAM.png);
 }
 .alies-contact-image{
     width: 375px;
@@ -144,4 +145,33 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
+}
+
+
+@media screen and (min-width: 1200px ) {
+    .alies-contact-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .alies-contact-image, .alies-contact-text-field{
+        width: 550px; 
+        box-sizing: border-box;
+    }
+    .alies-contact-text-field h2{
+        font-size: 42px;
+        font-weight: 800;
+    }
+    .alies-contact-text-field h5{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .alies-contact-text-field h6{
+        display: none;
+    }
+    .alies-contact-text-field button{
+        margin-top: .5rem;
+        line-height: 15px;
+    }
 }
