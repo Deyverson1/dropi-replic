@@ -14,7 +14,7 @@
 }
 .carousel{
     height: 100%;
-}
+} 
 
 .div-carousel{
     display: flex;
@@ -24,4 +24,10 @@
 .image{
     width: 98.33px;
     height: 65.55px;
+}
+
+@media screen and (min-width:1200px){
+    .carousel-container{
+        padding: 100px;
+    }
 }
