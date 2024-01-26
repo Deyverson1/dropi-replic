@@ -5,18 +5,25 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Register from './components/Register/Register';
 import WhatsApp from './components/WhatsApp/WhatsApp';
+import Dropicard from './components/SubComponents/Dropicard/Dropicard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Alies/>
-      <Register />
-      <Footer />
-      <WhatsApp/>
-    </>
-   
+    <Router>
+      <Routes>
+        <Route path='/' element={ <>
+          <Header />
+          <Main />
+          <Alies/>
+          <Register />
+          <Footer />
+          <WhatsApp/>
+          </>} />  
+        <Route path='/dropicard' element={<Dropicard/>}/>
+        <Route path='/footer' element={<Footer/>}/>  
+      </Routes>
+    </Router>
   )
 }
 
