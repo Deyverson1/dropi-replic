@@ -69,16 +69,16 @@
     margin-bottom: .5rem;
     text-transform: uppercase;
 }
-.list-container{
+.list-container-Dropi{
     display: flex;
     justify-content: space-evenly;
     margin: 3px 130px;
     margin-bottom: 100px;
 }
-.list-container ul {
+.list-container-Dropi ul {
     list-style: none;
 }
-.list-container li {
+.list-container-Dropi li {
     padding: 7px;
 }
 .text-list{
@@ -104,7 +104,7 @@
     font-weight: 700;
     color: #3d3d3d;
     text-transform: uppercase;
-}
+} 
 .containerText{
     margin: 2px 8px 8px 8px;
     padding: 10px 20px 10px 20px;
@@ -114,8 +114,8 @@
     box-sizing: border-box;
     width: 310px;
     text-align: center;
-}
-.textDropi{
+} 
+.textDropiCard{
     text-align: center;
     font-size: 37px;
     line-height: 37px;
@@ -175,4 +175,39 @@
 }
 .infographic img{
     width: 100%;
+}
+
+/* END */
+.contactDropicard{
+    background-color: #ec6f2d;
+    text-align: center;
+    padding: 4rem;
+    padding-bottom: 1.6rem;
+}
+.contactDropicard button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ec6f2d;
+    border: none;
+    border-radius: 8px;
+    padding:  15px 30px;
+    margin: .7rem 0;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    line-height: 16px;
+}
+
+.contactDropicardtextTitle {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: .2rem;
+}
+.contactDropicard span{
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.contactDropicardcontainerText button:hover{
+    cursor: pointer;
 }
