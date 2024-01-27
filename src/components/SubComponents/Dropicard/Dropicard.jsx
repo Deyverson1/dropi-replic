@@ -3,6 +3,7 @@ import Header from "../../Header/Header"
 import Footer from "../../Footer/Footer"
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from "react-router-dom";
 
 export default function Dropicard(){
     return (
@@ -18,7 +19,7 @@ export default function Dropicard(){
                </div>
             </div>
             <button className="beneficsButton">Beneficios</button>
-            <section className="list-container">
+            <section className="list-container-Dropi">
                 <ul>
                     <li> <div className="slider-card"><FontAwesomeIcon icon={faCheck} style={{color: "#ec6f2d", marginRight: ".5rem", paddingTop: ".3rem"}} /> <p className='text-list'>Simplifica el proceso de activación de tus anuncios de campañas.</p></div></li>
                     <li> <div className="slider-card"><FontAwesomeIcon icon={faCheck} style={{color: "#ec6f2d", marginRight: ".5rem", paddingTop: ".3rem"}} /> <p className='text-list'>Crea tantas tarjetas como necesites.</p></div></li>
@@ -35,7 +36,7 @@ export default function Dropicard(){
             <section className="textFullContainer">
                 <h2 className="textTitle">¿Qué podrás</h2>
                 <div className="containerText">
-                    <h3 className="textDropi">Encontrar?</h3>
+                    <h3 className="textDropiCard">Encontrar?</h3>
                 </div>
             </section>
             <div className="imageDiv">
@@ -50,6 +51,13 @@ export default function Dropicard(){
             <div className="infographic">
                 <img src="https://dropi.co/wp-content/uploads/2023/08/Infografia_Horizontal-2-1536x474.png" alt="" />
             </div>
+            <section className="contactDropicard">
+                <h2 className="contactDropicardtextTitle">¡DEJA LAS DUDAS ATRÁS,</h2>
+                <span>COMUNÍCATE CON NOSOTROS!</span>
+                <div className="contactDropicardcontainerText">
+                    <Link to="https://api.whatsapp.com/send?phone=573218379821&text=Hola%20vengo%20de%20la%20Web%20y%20deseo%20saber%20m%C3%A1s%20sobre%20la%20capacitaci%C3%B3n%20de%20la%20plataforma!%20"><button className="contactDropicardtextDropiCard">CONTÁCTANOS</button></Link>
+                </div>
+            </section>
             <Footer/>
         </>
     )
