@@ -1,4 +1,5 @@
 import Carrusel from '../Carrusel/Carrusel'
+import { Link } from 'react-router-dom'
 import './Alies.css'
 export default function Alies(){
     return(
@@ -25,7 +26,7 @@ export default function Alies(){
                     <h2>Tu negocio</h2>
                     <h5>Llévalo a <span><em>Otro <strong> nivel</strong></em></span></h5>
                     <h6>Más de 700 mil órdenes mensuales en Latam</h6>
-                    <button>Contáctanos</button>
+                    <Link to="/contact/"><button>Contáctanos</button></Link>
                 </div>
             </section>
             <div className='alies-container-proveedores'> 

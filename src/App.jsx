@@ -6,6 +6,7 @@ import Main from './components/Main/Main';
 import Register from './components/Register/Register';
 import WhatsApp from './components/WhatsApp/WhatsApp';
 import Dropicard from './components/SubComponents/Dropicard/Dropicard';
+import Contact from './components/SubComponents/Contact/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
           <Footer />
           <WhatsApp/>
           </>} />  
-        <Route path='/dropicard' element={<Dropicard/>}/>
-        <Route path='/footer' element={<Footer/>}/>  
+        <Route path='/dropicard/' element={<Dropicard/>}/>
+        <Route path='/footer/' element={<Footer/>}/>  
+        <Route path='/contact/' element={<Contact/>} />
       </Routes>
     </Router>
   )

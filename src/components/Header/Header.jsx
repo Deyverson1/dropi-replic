@@ -15,7 +15,7 @@ export default function Header() {
                 </Link>
                 
                 <div className='navigation-links-container'>
-                    <Link to="/dropicard">Dropicard</Link>
+                    <Link to="/dropicard/">Dropicard</Link>
                     <a href="#">¿Qué perfil eres?</a>
                     <a href="#">Proveedores</a>
                     <a href="#">Iniciar sesión</a>
