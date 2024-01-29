@@ -5,6 +5,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +16,7 @@ export default function Footer(){
             <img className='footer-image' src="https://dropi.co/wp-content/uploads/2023/05/logo_dropi_light.png" alt="" />
             <section className='links-container'>
             <div className='footer-links-us'>
-                <a href="#">Contacto</a>
+                <Link to="/contact/">Contacto</Link>
                 <a href="#">Capacitaciones Dropi</a>
                 <a href="#">Proveedores Premiun</a>
             </div>

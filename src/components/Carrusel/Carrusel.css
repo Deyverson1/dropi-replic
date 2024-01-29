@@ -14,17 +14,36 @@
 }
 .carousel{
     height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 } 
-
+.carousel li{
+    display: flex;
+    justify-content: center;
+}   
+.carousel button{
+    margin: -40px;
+}
+.react-multi-carousel-dot button{
+    width: 10px !important;
+    height: 10px !important;
+    background: #FFCAAB;
+    border-color: #ffffff !important;
+}
+.react-multi-carousel-dot--active button{
+    background-color: #ec6f2d !important;
+}
 .div-carousel{
     display: flex;
     margin-left: 5rem;
     margin-right: 3rem;
 }
-.image{
+/* .image{
     width: 98.33px;
     height: 65.55px;
-}
+} */
+
 
 @media screen and (min-width:1200px){
     .carousel-container{
