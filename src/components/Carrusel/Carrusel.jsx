@@ -5,7 +5,7 @@ export default function Carrusel() {
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },
-          items: 5
+          items: 6
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
@@ -34,7 +34,7 @@ export default function Carrusel() {
                 autoPlay={true}
                 autoPlaySpeed={3000}
                 rewind={true}
-                // centerMode={true}
+                centerMode={true}
                 
                 >
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_coodinadora-q66plbfyib5bhjbkjx5c6xl193n5juv9k37cvmx7c8.png" alt="" />
