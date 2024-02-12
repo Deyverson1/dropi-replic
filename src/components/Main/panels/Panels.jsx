@@ -18,11 +18,11 @@ export default function Panels(){
          }
          ]
     return(
-        <main className='panels'>
+        <main className='panels ' id='Panels'>
         <div className='panels-container'>
           {
             solutions.map((solution, index) => (
-              <div className='panels-list' key={index}>
+              <div className='panels-list'  key={index}>
                 <h1 className='panels-tittle' style={{color: solution.color}}>Soluciones para <strong>{solution.title}</strong></h1>
                 <p className='panels-text'>{solution.text}</p>
                 <button className='btn-panels' style={{backgroundColor: solution.color}}> MÁS INFO</button>

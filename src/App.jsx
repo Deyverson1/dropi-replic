@@ -24,6 +24,7 @@ function App() {
         <Route path='/dropicard/' element={<Dropicard/>}/>
         <Route path='/footer/' element={<Footer/>}/>  
         <Route path='/contact/' element={<Contact/>} />
+        <Route path='/#Panels'/>
       </Routes>
     </Router>
   )
