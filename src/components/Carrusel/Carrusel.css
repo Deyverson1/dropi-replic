@@ -25,14 +25,28 @@
 .carousel button{
     margin: -40px;
 }
+.react-multiple-carousel__arrow--right {
+    color: red !important;
+    background-color: white !important;
+}
+.react-multiple-carousel__arrow--right::before{
+    color:#ec6f2d !important;
+}
+.react-multiple-carousel__arrow--left{
+    background-color: white !important;
+}
+.react-multiple-carousel__arrow--left::before{
+    color: #ec6f2d !important;
+}
 .react-multi-carousel-dot button{
     width: 10px !important;
     height: 10px !important;
     background: #FFCAAB;
     border-color: #ffffff !important;
+    color: #ec6f2d;
 }
 .react-multi-carousel-dot--active button{
-    background-color: #ec6f2d !important;
+    background-color: #ec6f2e !important;
 }
 .div-carousel{
     display: flex;
@@ -43,7 +57,6 @@
     width: 98.33px;
     height: 65.55px;
 } */
-
 
 @media screen and (min-width:1200px){
     .carousel-container{

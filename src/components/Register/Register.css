@@ -3,7 +3,7 @@
 }
 .register-title{
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     color: #ec6f2d;
     text-transform: uppercase;
     padding-bottom: 1.5rem;
@@ -12,8 +12,9 @@
 .register-container-div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 1rem;
 }
 .register-container-map{
     display: flex;
@@ -21,7 +22,7 @@
     align-items: center;
 }
 .register-image{
-    width: 48px;
+    width: 64px;
 }
 .register-country-name{
     text-transform: uppercase;
@@ -32,12 +33,13 @@
 }
 .register-country-button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 13px;
     color: #ffffff;
     font-weight: 700;
     background-color: #ec6f2d;
     border: none;
     border-radius: 10px;
-    padding: .25rem;
+    padding: 4px 8px;
     text-transform: uppercase;
 }
