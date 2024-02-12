@@ -3,6 +3,7 @@
     padding: 1rem 0;
     position: relative;
     z-index: 99;
+    background-color: transparent;
 }
 .navigation-container{
     display: flex;

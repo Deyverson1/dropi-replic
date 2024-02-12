@@ -3,8 +3,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-export default function Header() {
-    const dataHeader = [{ title: 'Dropicard', to: '/dropicard/', type: Link }, { title: '¿Qué perfil eres?', to: '#Panels', }, { title: 'Proveedores', to: '/#/' }, { title: 'Iniciar sesión', to: '/#/' },]
+export default function Header(props) {
+    const { color } = props
+    const dataHeader = [{ title: 'Dropicard', to: '/dropicard/', type: Link }, { title: '¿Qué perfil eres?', to: '#Panels', }, { title: 'Proveedores', to: '/proveedores-premium/' }, { title: 'Iniciar sesión', to: '/iniciar-sesion/' },]
     return (
         <header className='navigation-header' role='banner'>
             <div className='navigation-container'>
@@ -16,7 +17,7 @@ export default function Header() {
                 </Link>
                 <div className='navigation-links-container'>
                     {dataHeader.map((dato, index) => (
-                        <Link key={index} to={dato.to}>{dato.title}</Link>
+                        <Link key={index} to={dato.to} style={{ color: color }}>{dato.title}</Link>
                     ))}
                     <button className='navigation-button'>Registrate</button>
                 </div>

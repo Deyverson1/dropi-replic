@@ -4,6 +4,10 @@
     background-color: #EC6F2D ;
     justify-content: space-around;
     color: #ffffff;
+    /* bottom: 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box; */
 }
 .footer-links{
     padding: 16px 16px;

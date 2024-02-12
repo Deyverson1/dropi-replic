@@ -1,14 +1,14 @@
 import "./Dropicard.css"
-import Header from "../../Header/Header"
-import Footer from "../../Footer/Footer"
+
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
+import Header from "../../Header/Header";
 
 export default function Dropicard(){
     return (
         <>
-            <Header/>
+           <Header/>
             <div className='dropicard-container'>
                 <img className='dropicard-image' src="https://dropi.co/wp-content/uploads/2023/08/dropicard.png" alt="" />
                <div className='list-container-dropicard'>
@@ -58,7 +58,7 @@ export default function Dropicard(){
                     <Link to="https://api.whatsapp.com/send?phone=573218379821&text=Hola%20vengo%20de%20la%20Web%20y%20deseo%20saber%20m%C3%A1s%20sobre%20la%20capacitaci%C3%B3n%20de%20la%20plataforma!%20"><button className="contactDropicardtextDropiCard">CONTÁCTANOS</button></Link>
                 </div>
             </section>
-            <Footer/>
+        
         </>
     )
 }
