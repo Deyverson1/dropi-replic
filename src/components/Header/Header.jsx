@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function Header(props) {
     const [activeNav, setActiveNav] = useState(false)
     function handleClick() {
-        console.log('Click')
+        setActiveNav(!activeNav)
     }
 
     const { color } = props
@@ -27,7 +27,8 @@ export default function Header(props) {
                 </div>
 
             </div>
-            <div className='nav-mobile-container'>
+            {activeNav && (
+                <div className='nav-mobile-container'>
                 <ul className='nav-mobile'>
                     {dataHeader.map((dato, index) => (
                         <Link key={index}> <li className='li-nav-mobile' style={{background: dato.background, color: dato.color}}>{dato.title}</li>
@@ -36,6 +37,7 @@ export default function Header(props) {
                     <Link><li className='li-nav-mobile' style={{background: '#eC6f2d', color: "#fff"}}>Registrate</li></Link>
                 </ul>
             </div>
+            )}
         </header>
     );
 }
