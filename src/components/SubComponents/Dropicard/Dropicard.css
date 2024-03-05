@@ -22,7 +22,7 @@
     width: 535px;
     height: auto;
     display: inline-block;
-    
+    aspect-ratio: 16 / 17;
 }
 .list-container-dropicard{
     display: flex;
@@ -48,9 +48,6 @@
     width: 435px;
 
 }
-
-
-
 
 /* text-list */
 .beneficsButton{
@@ -84,7 +81,7 @@
 .text-list{
     font-size: 18px;
     line-height: 27px;
-    font-weight: 700;
+    font-weight: 400;
     color: #3d3d3d;
 }
 .slider-card{
@@ -210,4 +207,52 @@
 }
 .contactDropicardcontainerText button:hover{
     cursor: pointer;
+}
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    .dropicard-container{
+        flex-direction: column-reverse;
+    }
+    .dropicard-image{
+        width: 100%;
+    }
+    .list-dropicard{
+        padding-inline: 30px;
+    }
+    .text-dropicard{
+        width: 346px;
+    }
+    .dropiButton{
+        font-size: 28px;
+        padding: 8px 16px;
+        line-height: 1;
+    }
+    .container-button{
+        margin-top: -40px;
+    }
+    .list-container-Dropi{
+        flex-direction: column;
+        margin: 0 8px;
+        padding-bottom: 40px;
+    }
+    .text-list{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .imageDiv{
+        padding: 0;
+    }
+    .infographic{
+        padding: 0;
+        padding-inline: 20px;
+    }
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
 }

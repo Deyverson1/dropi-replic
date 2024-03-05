@@ -27,6 +27,7 @@ function App() {
         <Route path='/contact/' element={<Contact />} />
         <Route path='/iniciar-sesion/' element={<IniciarSesion />} />
         <Route path='/proveedores-premium/' element={<Proveedores />} />
+        <Route path='/register' element={<Register/>} />
       </Routes>
       <Footer />
     </Router>
