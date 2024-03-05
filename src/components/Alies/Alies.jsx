@@ -18,7 +18,7 @@ export default function Alies(){
                 </div>
            
             <section className='alies-contact-container'>
-                <div>
+                <div> 
                     <img className='alies-contact-image' src="https://dropi.co/wp-content/uploads/2023/06/mapa-latam-FINAL.png" alt="" />
                 </div>
                 <div className='alies-contact-text-field'>

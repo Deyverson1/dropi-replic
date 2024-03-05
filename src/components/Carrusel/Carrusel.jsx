@@ -16,13 +16,13 @@ export default function Carrusel() {
           items: 2
         },
         mobile: {
-          breakpoint: { max: 1000, min: 0 },
-          items: 3
+          breakpoint: { max: 464, min: 0 },
+          items: 1
         }
       }
     return(
         <div className='carousel-container'>
-            <h5>ALiados</h5>
+            <h5>Aliados</h5>
             <div className="slide-container">
                 <Carousel 
                 className='carousel' 

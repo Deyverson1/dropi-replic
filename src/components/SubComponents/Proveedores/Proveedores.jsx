@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import Header from '../../Header/Header'
 import './proveedores.css'
+// import CarouselProveedores from './CarouselProveedores';
 export default function Proveedores() {
   let [display, setDisplay] = useState('')
   const playVideo = () => {
@@ -35,6 +36,7 @@ export default function Proveedores() {
           </div>
         </main>
       </section>
+      {/* <CarouselProveedores/> */}
       {/* <section>
         <div>
         <span className='span-proveedores'>Premium</span>

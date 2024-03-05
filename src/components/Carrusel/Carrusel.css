@@ -23,22 +23,29 @@
     justify-content: center;
 }   
 .carousel button{
-    margin: -40px;
+    margin: -50px;
 }
 .react-multiple-carousel__arrow--right {
-    color: red !important;
+
     background-color: white !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 .react-multiple-carousel__arrow--right::before{
     color:#ec6f2d !important;
 }
 .react-multiple-carousel__arrow--left{
     background-color: white !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+
 }
 .react-multiple-carousel__arrow--left::before{
     color: #ec6f2d !important;
 }
 .react-multi-carousel-dot button{
+    
     width: 10px !important;
     height: 10px !important;
     background: #FFCAAB;
@@ -61,5 +68,24 @@
 @media screen and (min-width:1200px){
     .carousel-container{
         padding: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .carousel button{
+        padding-top: 20px;
+        margin: -35px;
+    }
+    .image{
+       height: 80px;
+       width: calc(100% - 20px); 
+    }
+    .react-multi-carousel-item {
+        /* width: auto!important; */
+    }
+    .slide-container{
+        padding: 0 20px;
+        display: flex;
+        gap: 10px;
     }
 }
