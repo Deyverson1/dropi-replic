@@ -22,12 +22,12 @@ function App() {
           <Register background='#fff' title={titleRegister} titleColor='#EC6F2D' />
           <WhatsApp />
         </>} />
-        <Route path='/dropicard/' element={<Dropicard />} />
-        <Route path='/footer/' element={<Footer />} />
-        <Route path='/contact/' element={<Contact />} />
-        <Route path='/iniciar-sesion/' element={<IniciarSesion />} />
-        <Route path='/proveedores-premium/' element={<Proveedores />} />
-        <Route path='/register' element={<Register/>} />
+        <Route path='/Dropicard/' element={<Dropicard />} />
+        <Route path='/Footer/' element={<Footer />} />
+        <Route path='/Contact/' element={<Contact />} />
+        <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
+        <Route path='/Proveedores-premium/' element={<Proveedores />} />
+        <Route path='/Register' element={<Register/>} />
       </Routes>
       <Footer />
     </Router>

@@ -9,7 +9,7 @@ export default function Header(props) {
     }
 
     const { color } = props
-    const dataHeader = [{ title: 'Dropicard', to: '/dropicard/', type: 'Link' }, { title: '¿Qué perfil eres?', to: '/#Panels', background: '#55595c', color: '#fff' }, { title: 'Proveedores', to: '/proveedores-premium/', type: 'Link' }, { title: 'Iniciar sesión', to: '/iniciar-sesion/', type: 'Link' },]
+    const dataHeader = [{ title: 'Dropicard', to: '/Dropicard/', type: 'Link' }, { title: '¿Qué perfil eres?', to: '/#Panels', background: '#55595c', color: '#fff' }, { title: 'Proveedores', to: '/Proveedores-premium/', type: 'Link' }, { title: 'Iniciar sesión', to: '/Iniciar-sesion/', type: 'Link' },]
     return (
         <header className='navigation-header' role='banner'>
             <div className='navigation-container'>
@@ -51,7 +51,7 @@ export default function Header(props) {
                                 )}
                             </article>
                         ))}
-                        <Link to={'/register'}><li className='li-nav-mobile' style={{ background: '#eC6f2d', color: "#fff" }}>Registrate</li></Link>
+                        <Link to={'/Register'}><li className='li-nav-mobile' style={{ background: '#eC6f2d', color: "#fff" }}>Registrate</li></Link>
                     </ul>
                 </div>
             )}
