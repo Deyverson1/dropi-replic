@@ -1,6 +1,5 @@
 .content-proveedores {
   margin-top: -72px;
-
   background-image: url(https://dropi.co/wp-content/uploads/2023/07/Banner.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -62,14 +61,11 @@
 .preview{
   background-image: url(https://dropi.co/wp-content/uploads/2024/01/VIDEO-PROVEEDORES-HORIZONTAL-PORATADA-JPG.jpg);
   position: relative;
-  top: -271px;
+  top: calc(-100% - 2px);
   left: 0px;
   width: 100%;
   height: 100%;
   background-size: cover;
-
- 
-
 }
 video {
   width: 100%;
@@ -88,4 +84,18 @@ video {
   font-size: 18px;
   line-height: 27px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 426px) {
+  .main-proveedores{
+    flex-direction: column;
+  }
+  .main-proveedores{
+    padding: 0;
+    padding-top: 60px;
+    padding-inline: 3rem;
+  }
+  .parrafo-proveedores{
+    /* margin-top: -180px; */
+  }
 }

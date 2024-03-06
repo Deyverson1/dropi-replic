@@ -37,11 +37,11 @@ export default function CarruselProveedores() {
     }
   }
   return (
-    <div draggable='false' className='proveedores-carousel-container'>
+    <section draggable='false'  className='proveedores-carousel-container'>
       <div className='text-container-proveedores'>
         <h5 className='button-carousel-proveedores'>Premiun <span>Dropi</span></h5>
       </div>
-      <div className="proveedores-slide-container">
+      <div  className="proveedores-slide-container">
         <Carousel
           className='proveedores-carousel'
           arrows={true}
@@ -66,6 +66,6 @@ export default function CarruselProveedores() {
 
         </Carousel>
       </div>
-    </div>
+    </section>
   )
 }
