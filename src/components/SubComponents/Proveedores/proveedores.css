@@ -99,3 +99,9 @@ video {
     /* margin-top: -180px; */
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .parrafo-proveedores{
+    margin-top: 0px !important;
+  }
+}
