@@ -1,0 +1,9 @@
+.register-container-val {
+  background-image: url(https://dropi.co/wp-content/uploads/2023/05/home_video_thumb.png);
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

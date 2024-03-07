@@ -34,7 +34,7 @@ export default function Carrusel() {
                 autoPlay={true}
                 autoPlaySpeed={3000}
                 rewind={true}
-                centerMode={true}
+                // centerMode={true}
                 
                 >
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_coodinadora-q66plbfyib5bhjbkjx5c6xl193n5juv9k37cvmx7c8.png" alt="" />

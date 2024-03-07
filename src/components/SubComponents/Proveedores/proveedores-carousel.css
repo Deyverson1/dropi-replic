@@ -33,28 +33,28 @@
   margin: -50px;
 }
 
-.react-multiple-carousel__arrow--right {
+/* .react-multiple-carousel__arrow--right {
   background-color: transparent !important;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   right: 0;
-}
+} */
 
 .react-multiple-carousel__arrow--right::before {
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
-.react-multiple-carousel__arrow--left {
+/* .react-multiple-carousel__arrow--left {
   background-color: transparent !important;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   left: 0;
-}
+} */
 
 .react-multiple-carousel__arrow--left::before {
-  color: #fff !important;
+  /* color: #fff !important; */
 }
-
+/* 
 .react-multi-carousel-dot button {
   width: 5px !important;
   height: 5px !important;
@@ -65,7 +65,7 @@
 
 .react-multi-carousel-dot--active button {
   background-color: #000 !important;
-}
+} */
 
 .div-carousel {
   display: flex;
@@ -105,14 +105,14 @@
   width: 70%;
 }
 
-.react-multi-carousel-track {
+/* .react-multi-carousel-track {
   display: flex !important;
   gap: 15px !important;
 }
 
 .react-multi-carousel-item {
   width: 213px !important;
-}
+} */
 
 .button-carousel-proveedores {
   color: #fff;

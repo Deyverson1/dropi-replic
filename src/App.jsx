@@ -10,6 +10,7 @@ import Contact from './components/SubComponents/Contact/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IniciarSesion from './components/SubComponents/Iniciar sesion/IniciarSesion'
 import Proveedores from './components/SubComponents/Proveedores/Proveedores';
+import Registrate from './components/SubComponents/Registrate/Registrate';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path='/Contact/' element={<Contact />} />
         <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
         <Route path='/Proveedores-premium/' element={<Proveedores />} />
-        <Route path='/Register' element={<Register/>} />
+        <Route path='/Register' element={<Registrate/>} />
       </Routes>
       <Footer />
     </Router>

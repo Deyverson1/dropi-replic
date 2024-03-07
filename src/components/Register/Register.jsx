@@ -1,4 +1,5 @@
 import './Register.css'
+
 export default function Register(props) {
     const countries = [
         { country: 'Colombia', image: 'https://dropi.co/wp-content/uploads/2023/05/colombia.png' },

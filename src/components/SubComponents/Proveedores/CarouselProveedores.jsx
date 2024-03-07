@@ -1,4 +1,4 @@
-import './proveedores-carousel.css'
+// import './proveedores-carousel.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 export default function CarruselProveedores() {
@@ -50,10 +50,15 @@ export default function CarruselProveedores() {
           swipeable={true}
           showDots={true}
           autoPlay={true}
-          autoPlaySpeed={1000}
+          shouldResetAutoplay={true}
+          autoPlaySpeed={3000}
           rewind={true}
-          centerMode={true}
-
+    
+          infinite={true}
+          slidesToSlide={1.5}
+          // centerMode={true}
+          // renderDotsOutside={true}
+          // minimumTouchDrag={50}
         >
           {data.map((dato, index) => (
             <div key={index} className='container-slide'>
@@ -62,8 +67,6 @@ export default function CarruselProveedores() {
               <h5 className='text-slide-proveedores'>{dato.title}</h5>
             </div>
           ))}
-
-
         </Carousel>
       </div>
     </section>

@@ -46,6 +46,9 @@
     flex-direction: column;
     margin-top: 20px;
 }
+.navigation-button{
+    color: white !important;
+}
 .li-nav-mobile{
     /* color: #333333; */
     padding-inline: 20px;
