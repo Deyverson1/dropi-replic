@@ -31,13 +31,12 @@
 }
 .btn-panels{
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     color: #ffffff;
-
     border: none;
-    border-radius: 2px;
-    padding: .5rem 1rem;
+    border-radius: 8px;
+    padding: .6rem 1.5rem;
 }
 @media screen and (min-width: 1200px) {
     .panels-container{

@@ -1,4 +1,3 @@
-import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -42,7 +41,6 @@ export default function Contact(){
             <button className="buttonSend">Enviar</button>
             <Link target="blank" to="https://api.whatsapp.com/send/?phone=573218379821&text=Hola+vengo+de+la+Web+y+deseo+saber+m%C3%A1s+de+Dropi%21&type=phone_number&app_absent=0"><button className="buttonWhatsapp"><FontAwesomeIcon icon={faWhatsapp} size="lg" />Escríbenos</button></Link>
             </section>
-            <Footer/>
         </>
        
     )
