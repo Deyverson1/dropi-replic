@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Carrusel from '../Carrusel/Carrusel'
 import './Alies.css'
 import ContactAlies from './Contact-alies'
@@ -10,7 +11,7 @@ export default function Alies(){
             <section >
                 <div className='alies-cap-container'>
                     <h3 className='alies-cap-text'>Potencia tus habilidades</h3>
-                    <button className='alies-cap-button'>Capacítate</button>
+                    <Link to={'/dropi-academy'}><button className='alies-cap-button'>Capacítate</button></Link>
                 </div>
             </section>
                 <div className='alies-container-video'>

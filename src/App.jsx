@@ -12,10 +12,12 @@ import IniciarSesion from './components/SubComponents/Iniciar sesion/IniciarSesi
 import Proveedores from './components/SubComponents/Proveedores/Proveedores';
 import Registrate from './components/SubComponents/Registrate/Registrate';
 import Academy from './components/DropiAcademy/Academy';
+import ScrollToTop from './components/ScrollTop';
 function App() {
   const titleRegister = 'Regístrate'
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<>
           <Header color='#5b5b5b' />
