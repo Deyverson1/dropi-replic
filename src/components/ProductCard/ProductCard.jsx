@@ -1,8 +1,8 @@
 import './productCard.css'
-function ProductCard({titleProduct, contentProduct}) {
+function ProductCard({titleProduct, contentProduct, image}) {
   return (
     <div className='product-card-container'>
-      <img className='product-image' src="https://dropi.co/wp-content/uploads/2023/08/dropicard.png" alt="" />
+      <img className='product-image' src={image} alt="" />
       <div className='list-container-product'>
         <button className="product-card-button">{titleProduct}</button>
         <div className='product-card-list'>
