@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IniciarSesion from './components/SubComponents/Iniciar sesion/IniciarSesion'
 import Proveedores from './components/SubComponents/Proveedores/Proveedores';
 import Registrate from './components/SubComponents/Registrate/Registrate';
+import Academy from './components/DropiAcademy/Academy';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
         <Route path='/Proveedores-premium/' element={<Proveedores />} />
         <Route path='/Register' element={<Registrate/>} />
+        <Route path='/dropi-academy' element={<Academy/>} />
       </Routes>
       <Footer />
     </Router>

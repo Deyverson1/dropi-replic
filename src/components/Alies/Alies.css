@@ -36,6 +36,9 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
+button:hover{
+    cursor: pointer;
+}
 
 
 

@@ -9,7 +9,7 @@ export default function Carrusel() {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 5
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -34,8 +34,6 @@ export default function Carrusel() {
                 autoPlay={true}
                 autoPlaySpeed={3000}
                 rewind={true}
-                // centerMode={true}
-                
                 >
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_coodinadora-q66plbfyib5bhjbkjx5c6xl193n5juv9k37cvmx7c8.png" alt="" />
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_envia-q66plcdsp56lt5a7efjyrfchuhiirjyzw7uucwvt60.png" alt="" />
