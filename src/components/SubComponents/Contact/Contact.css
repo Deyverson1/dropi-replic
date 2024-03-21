@@ -122,3 +122,12 @@
     cursor: pointer;
     align-items: center;
 }
+
+@media screen and (max-width: 427px) {
+    .containerContact{
+    padding: 20px;
+    }
+    .buttonWhatsapp{
+        margin: 20px;
+    }
+}

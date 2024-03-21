@@ -32,6 +32,7 @@
   background-color: transparent !important;
 
 }
+
 .react-multiple-carousel__arrow--left {
   background-color: transparent !important;
 
@@ -102,13 +103,17 @@
 
 @media screen and (max-width: 1000px) {
   .carousel button {
-    padding-top: 20px;
-    margin: -35px;
+    /* padding-top: 20px; */
+    /* margin: -35px; */
+  }
+
+  .proveedores-slide-container {
+    padding: 0;
   }
 
   .image-proveedores {
-    height: 80px;
-    width: calc(100% - 20px);
+    /* height: 80px;
+    width: calc(100% - 20px); */
   }
 
   .react-multi-carousel-item {
@@ -116,10 +121,11 @@
   }
 
   .proveedores-slide-container {
-    padding: 0 20px;
+    /* padding: 0 20px;
     display: flex;
-    gap: 10px;
+    gap: 10px; */
   }
+
   /* .react-multi-carousel-item {
   width: 380px !important;
   } */
