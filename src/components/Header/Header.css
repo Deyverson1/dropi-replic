@@ -38,13 +38,13 @@
 }
 .nav-mobile-container{
     width: 100%;
+    margin-top: 13px;
     position: absolute;
     background-color: #fff;
 }
 .nav-mobile{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
 }
 .navigation-button{
     color: white !important;

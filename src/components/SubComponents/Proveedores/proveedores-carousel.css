@@ -102,6 +102,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .proveedores-carousel-container {
+    padding-bottom: 60px;
+  }
+
   .carousel button {
     /* padding-top: 20px; */
     /* margin: -35px; */
