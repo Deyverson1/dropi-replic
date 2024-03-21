@@ -1,11 +1,14 @@
 import "./Dropicard.css"
 
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 import Header from "../../Header/Header";
+import TwoColumn from "../../TwoColumn/TwoColumn";
+import ProductCard from "../../ProductCard/ProductCard";
 
 export default function Dropicard() {
+    const titleProduct = [ 'dropicard' ]
+    const contentProduct = [ 'NUESTRA TARJETA DE CRÉDITO ES UNA NUEVA HERRAMIENTA FINANCIERA, DROPICARD ROMPE LA BRECHA DE AQUELLOS QUE NO ESTÁN BANCARIZADOS Y QUIEREN AGILIZAR SUS PROCESOS DE TRANSFERENCIAS DE WALLET A UN BIEN FINAL']
+
     const firstRow = [
         "Simplifica el proceso de activación de tus anuncios de campañas.",
         "Crea tantas tarjetas como necesites.",
@@ -16,32 +19,11 @@ export default function Dropicard() {
         "Tu tarjeta aliada con VISA.",
         "Compra online, sin límites."
     ]
-
     return (
         <>
             <Header />
-            <div className='dropicard-container'>
-                <img className='dropicard-image' src="https://dropi.co/wp-content/uploads/2023/08/dropicard.png" alt="" />
-                <div className='list-container-dropicard'>
-                    <button className="dropiButton">dropicard</button>
-                    <div className='list-dropicard'>
-                        <p className='text-dropicard'>NUESTRA TARJETA DE CRÉDITO ES UNA NUEVA HERRAMIENTA FINANCIERA, DROPICARD ROMPE LA BRECHA DE AQUELLOS QUE NO ESTÁN BANCARIZADOS Y QUIEREN AGILIZAR SUS PROCESOS DE TRANSFERENCIAS DE WALLET A UN BIEN FINAL</p>
-                    </div>
-                </div>
-            </div>
-            <div className="container-button">
-            <button className="beneficsButton">Beneficios</button>
-            </div>
-            <section className="list-container-Dropi">
-                <ul> {firstRow.map((dato, index) => (
-                    <li key={index}> <div className="slider-card"><FontAwesomeIcon icon={faCheck} style={{ color: "#ec6f2d", marginRight: ".5rem", paddingTop: ".3rem" }} /><p className='text-list'>{dato}</p></div></li>
-                ))}
-                </ul>
-                <ul> {secondRow.map((dato, index) => (
-                    <li key={index}> <div className="slider-card"><FontAwesomeIcon icon={faCheck} style={{ color: "#ec6f2d", marginRight: ".5rem", paddingTop: ".3rem" }} /> <p className='text-list'>{dato}</p></div></li>
-                ))}
-                </ul>
-            </section>
+            <ProductCard titleProduct={titleProduct} contentProduct={contentProduct}/>
+            <TwoColumn firstRow={firstRow} secondRow={secondRow} />
             <section className="textFullContainer">
                 <h2 className="textTitle">¿Qué podrás</h2>
                 <div className="containerText">

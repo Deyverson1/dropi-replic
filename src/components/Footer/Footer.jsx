@@ -17,16 +17,16 @@ export default function Footer(){
             <section className='links-container'>
             <div className='footer-links-us'>
                 <Link to="/contact/">Contacto</Link>
-                <a href="#">Capacitaciones Dropi</a>
-                <a href="#">Proveedores Premiun</a>
+                <Link to="/dropi-academy">Capacitaciones Dropi</Link>
+                <Link to="/proveedores-premium/">Proveedores Premiun</Link>
             </div>
             <div className='footer-links-terms'>
                 <a href="#">Privacidad</a>
                 <a href="#">Términos y Condiciones</a>
             </div>
             <div className='footer-links-contact'>
-                <a href="#">(+57) 321 8379821</a>
-                <a href="#">comercial@dropi.co</a>
+                <a href="https://api.whatsapp.com/send?phone=573218379821&text=Hola%20vengo%20de%20la%20Web%20y%20deseo%20saber%20m%C3%A1s%20de%20Dropi" target='_blank'>(+57) 321 8379821</a>
+                <a href="mailto:comercial@dropi.co" target='_blank'>comercial@dropi.co</a>
                 <a href="#">Trabaja con Nosotros</a>
             </div>
             </section>

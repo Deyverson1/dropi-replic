@@ -30,7 +30,7 @@ function App() {
         <Route path='/Footer/' element={<Footer />} />
         <Route path='/Contact/' element={<Contact />} />
         <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
-        <Route path='/Proveedores-premium/' element={<Proveedores />} />
+        <Route path='/proveedores-premium/' element={<Proveedores />} />
         <Route path='/Register' element={<Registrate/>} />
         <Route path='/dropi-academy' element={<Academy/>} />
       </Routes>
