@@ -14,6 +14,8 @@ import Registrate from './components/SubComponents/Registrate/Registrate';
 import Academy from './components/DropiAcademy/Academy';
 import ScrollToTop from './components/ScrollTop';
 import SuppliersSolutions from './components/SuppliersSolutions/SuppliersSolutions';
+import DropshipperSolutions from './components/DropshipperSolutions/DropshipperSolutions';
+import BrandSolutions from './components/BrandSolutions/BrandSolutions';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -34,7 +36,9 @@ function App() {
         <Route path='/proveedores-premium/' element={<Proveedores />} />
         <Route path='/Register' element={<Registrate/>} />
         <Route path='/dropi-academy' element={<Academy/>} />
-        <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions/>}></Route>
+        <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions/>}/>
+        <Route path='/soluciones-para-dropshippers/' element={ <DropshipperSolutions/> } />
+        <Route path='/soluciones-para-marca-propia/' element={<BrandSolutions/>} />
       </Routes>
       <Footer />
     </Router>

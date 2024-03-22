@@ -22,7 +22,7 @@ export default function Dropicard() {
   return (
     <>
       <Header />
-      <ProductCard titleProduct={titleProduct} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/08/dropicard.png'}/>
+      <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/08/dropicard.png'}/>
       <TwoColumn firstRow={firstRow} secondRow={secondRow} />
       <section className="textFullContainer">
         <h2 className="textTitle">¿Qué podrás</h2>

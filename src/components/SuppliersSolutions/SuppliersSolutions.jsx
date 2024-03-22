@@ -18,7 +18,7 @@ function SuppliersSolutions(){
   return(
     <>
     <Header/>
-    <ProductCard titleProduct={titleProduct} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/proveedores_hero.png'}/>
+    <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/proveedores_hero.png'}/>
     <TwoColumn firstRow={firstRow} secondRow={secondRow}/>
     </>
   )

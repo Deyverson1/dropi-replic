@@ -19,11 +19,19 @@
   text-align: center;
 }
 
+.product-card-subtitle {
+  color: #FFBE47;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
 .product-card-button {
   border: none;
   position: relative;
   top: 25%;
-  background-color: #ec6f2d;
   color: #ffff;
   border-radius: 50px;
   padding: 10px 30px;
