@@ -1,28 +1,32 @@
-.suppliers-card-container{
+.suppliers-card-container {
   background-color: #ec6f2d;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   padding-block: 4rem;
 }
-.suppliers-card-container h2{
+
+.suppliers-card-container h2 {
   font-size: 36px;
   font-weight: 700;
 }
-.suppliers-card-container h2 em{
+
+.suppliers-card-container h2 em {
   font-weight: 900;
   font-size: 35px;
 }
-.suppliers-card-container h1{
+
+.suppliers-card-container h1 {
   font-size: 52px;
   padding-top: 20px;
   font-weight: 800;
 }
-.suppliers-card-container button{
+
+.suppliers-card-container button {
   background-color: #fff;
   color: #ec6f2d;
   margin-top: 15px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
   padding-inline: 20px;
   padding-block: 10px;
@@ -30,18 +34,20 @@
   border-radius: 8px;
 
 }
-.suppliers-content-video{
+
+.suppliers-content-video {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.suppliers-content-video iframe{
+
+.suppliers-content-video iframe {
   width: 100%;
   height: 100vh;
   aspect-ratio: 16/9;
 }
 
-.suppliers-attach-announce{
+.suppliers-attach-announce {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,11 +57,12 @@
   text-transform: uppercase;
 }
 
-.suppliers-attach-announce h1{
+.suppliers-attach-announce h1 {
   font-size: 38px;
   color: #101f31;
 }
-.suppliers-attach-announce button{
+
+.suppliers-attach-announce button {
   color: #fff;
   font-size: 34px;
   line-height: 20px;
@@ -68,6 +75,38 @@
   padding-block: 20px;
   border-radius: 40px;
 }
-.suppliers-attach-announce div img{
+
+.suppliers-attach-announce div img {
   width: 100%;
+}
+
+@media screen and (max-width: 427px) {
+  .suppliers-attach-announce {
+    padding-inline: 0;
+  }
+
+  .suppliers-attach-announce {
+    text-align: center;
+  }
+
+  .suppliers-content-video {
+    height: 200px;
+  }
+
+  .suppliers-content-video iframe {
+    height: 100%;
+  }
+
+  .suppliers-card-container h1 {
+    font-size: 40px;
+    padding-top: 6px;
+  }
+
+  .suppliers-card-container h2{
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .suppliers-card-container h2 em{
+    font-size: 24px;
+  }
 }

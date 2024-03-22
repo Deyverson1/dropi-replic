@@ -7,7 +7,6 @@ function SuppliersSolutions() {
   const data = [
     { title: 'Almacenamos', image: 'https://dropi.co/wp-content/uploads/2023/05/proveedores_beneficios_01.jpg' },
     { title: 'EMPAQUETAMOS', image: 'https://dropi.co/wp-content/uploads/2023/05/proveedores_beneficios_02.jpg' },
-    { title: '', image: '' },
     { title: 'DESPACHAMOS TUS PRODUCTOS', image: 'https://dropi.co/wp-content/uploads/2023/05/proveedores_beneficios_03.jpg' },
     { title: 'ENVIAMOS TUS PRODUCTOS A TUS CLIENTES FINALES', image: 'https://dropi.co/wp-content/uploads/2023/05/proveedores_beneficios_04.jpg' },
 

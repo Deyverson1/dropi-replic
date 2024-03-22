@@ -60,7 +60,6 @@
   line-height: 22px;
   color: #3d3d3d;
   width: 435px;
-
 }
 
 @media screen and (max-width: 427px) {
@@ -73,8 +72,12 @@
     width: 100%;
   }
 
+  .product-card-button{
+    font-size: 30px;
+  }
+
   .product-card-list {
-    padding-inline: 30px;
+    padding-inline: 0;
   }
 
   .product-card-text {

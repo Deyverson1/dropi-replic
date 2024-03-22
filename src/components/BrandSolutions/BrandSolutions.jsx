@@ -7,8 +7,6 @@ function BrandSolutions(){
   const data = [
     {title: 'FLETES ECONÓMICOS Y TARIFAS COMPETITIVAS PARA TU NEGOCIO', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_01.jpg'},
     {title: 'ALMACENAMOS, RECIBIMOS Y CUIDAMOS TUS PRODUCTOS EN NUESTROS CENTROS LOGÍSTICOS', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_02.jpg'},
-    {title: '', image: ''},
-    {title: '', image: ''},
     {title: 'EMPACAMOS TUS PRODUCTOS POR TÍ', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_03.jpg'},
 
   ]
