@@ -28,7 +28,7 @@ function BrandSolutions() {
     <>
       <Header />
       <ProductCard titleProduct={titleProduct} contentProduct={contentProduct} subTitle={subTitle} color={'#FFBE47'} image={'https://dropi.co/wp-content/uploads/2023/06/BANNER-MARCA-PROPia-1024x1024.png'} />
-      <TwoColumn firstRow={firstRow} secondRow={secondRow}/>
+      <TwoColumn firstRow={firstRow} secondRow={secondRow} color={'#FFBE47'}/>
       <Boxes data={data} color={'#FFBE47'} />
       <Integration />
       <section className='suppliers-content-video'>

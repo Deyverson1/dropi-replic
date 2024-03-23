@@ -72,8 +72,14 @@
     width: 100%;
   }
 
-  .product-card-button{
-    font-size: 30px;
+  .product-card-subtitle {
+    font-size: 28px;
+  }
+
+  .product-card-button {
+    font-size: 20px;
+    padding: 2px 20px;
+
   }
 
   .product-card-list {
@@ -81,7 +87,8 @@
   }
 
   .product-card-text {
-    width: 346px;
+    width: 270px;
+    font-size: 15px;
   }
 
   .text-list {

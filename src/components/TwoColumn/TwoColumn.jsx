@@ -1,11 +1,11 @@
 import './twoColumn.css'
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function TwoColumn({ firstRow, secondRow }) {
+function TwoColumn({ firstRow, secondRow, color }) {
   return (
     <>
       <div className="container-button-column">
-        <button className="button-content-column">Beneficios</button>
+        <button className="button-content-column" style={{backgroundColor: color}}>Beneficios</button>
       </div>
       <section className="list-container-column">
         <ul> {firstRow.map((dato, index) => (

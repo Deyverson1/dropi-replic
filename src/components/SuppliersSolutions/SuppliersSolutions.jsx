@@ -27,7 +27,7 @@ function SuppliersSolutions() {
     <>
       <Header />
       <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/proveedores_hero.png'} />
-      <TwoColumn firstRow={firstRow} secondRow={secondRow} />
+      <TwoColumn firstRow={firstRow} secondRow={secondRow} color={'#ec6f2d'}/>
       <Boxes data={data} color={'#EC6F2D'} />
       <section className='suppliers-card-container'>
         <h2>Conviértete en <em>un proveedor</em></h2>
