@@ -38,6 +38,9 @@
     border-radius: 8px;
     padding: .6rem 1.5rem;
 }
+.btn-panels:hover{
+    scale: 1.05;
+}
 @media screen and (min-width: 1200px) {
     .panels-container{
         flex-direction: row;

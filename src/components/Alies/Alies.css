@@ -1,195 +1,227 @@
-.alies-cap-container{
-    height: 282px;
-    background-image: url("https://dropi.co/wp-content/uploads/2023/08/patron-1024x659.png");
-    background-color: #ec6f2d;
-    text-align: center;
+.alies-cap-container {
+  height: 282px;
+  background-image: url("https://dropi.co/wp-content/uploads/2023/08/patron-1024x659.png");
+  background-color: #ec6f2d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.alies-cap-text{
-    position: relative;
-    top: 30%;
-    font-size: 28px;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
+
+.alies-cap-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
 }
-.alies-cap-button{
-    border: none;
-    position: relative;
-    top: 35%;
-    text-transform: uppercase;
-    color: #ec6f2d;
-    border-radius: 8px;
-    padding: 15px 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
+
+.alies-cap-button {
+  border: none;
+  text-transform: uppercase;
+  color: #ec6f2d;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1rem;
 }
-.alies-container-video{
-    width: 100%;
-    background-color: #ec6f2d;
+
+.alies-cap-button:hover {
+  outline: 4px solid #f5ad85;
+}
+
+.alies-container-video {
+  width: 100%;
+  background-color: #ec6f2d;
 
 }
-.alies-video{
-    aspect-ratio: 16/9;
+
+.alies-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.alies-contact-container {
+  background-color: #ec6f2d;
+  text-align: center;
+  background-image: url(https://dropi.co/wp-content/uploads/2023/06/FONDO-LATAM.png);
+}
+
+.alies-contact-image {
+  width: 375px;
+}
+
+.alies-contact-text-field {
+  color: #ffffff;
+
+  padding: 0 10px;
+  padding-bottom: 32px;
+  padding-top: 10px;
+}
+
+.alies-contact-text-field h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.alies-contact-text-field h5 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: .5rem;
+}
+
+.alies-contact-text-field span {
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #ec6f2d;
+  padding: .2rem;
+}
+
+.alies-contact-text-field span em strong {
+  font-weight: 900;
+}
+
+.alies-contact-text-field h6 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: .5rem;
+  padding-bottom: 1rem;
+}
+
+.alies-contact-text-field button {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ec6f2d;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+.alies-contact-text-field button:hover{
+  outline: 4px solid #f5ad85;
+}
+
+.alies-container-proveedores-button:hover {
+  outline: 4px solid #f5ad85;
+  outline-offset: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alies-container-proveedores {
+  height: 405px;
+  background-image: url("https://dropi.co/wp-content/uploads/2023/05/trabaja_con_-nosotros_cta.png");
+  text-align: center;
+  top: 50%;
+  position: relative;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.alies-container-proveedores-text {
+  top: 37%;
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.alies-container-proveedores-button {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 41.8%;
+  color: #ffffff;
+  border: none;
+  background-color: #ec6f2d;
+  border-radius: 6px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .alies-contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alies-contact-image,
+  .alies-contact-text-field {
+    width: 550px;
+    box-sizing: border-box;
+  }
+
+  .alies-contact-text-field h2 {
+    font-size: 42px;
+    font-weight: 800;
+  }
+
+  .alies-contact-text-field h5 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .alies-contact-text-field h6 {
+    display: none;
+  }
+
+  .alies-contact-text-field button {
+    margin-top: .5rem;
+    line-height: 15px;
+  }
+
+
+  .alies-container-video {
     width: 100%;
     height: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-button:hover{
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-.alies-contact-container{
     background-color: #ec6f2d;
-    text-align: center;
-    background-image: url(https://dropi.co/wp-content/uploads/2023/06/FONDO-LATAM.png);
-}
-.alies-contact-image{
-    width: 375px;
-}
-.alies-contact-text-field{
-    color: #ffffff;
- 
-    padding: 0 10px;
-    padding-bottom: 32px;
-    padding-top: 10px;
-}
-.alies-contact-text-field h2{
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 800;
-}
-.alies-contact-text-field h5{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: .5rem;
-}
-.alies-contact-text-field span{
-    border-radius: 8px;
-    background-color: #ffffff;
-    color: #ec6f2d;
-    padding: .2rem;
-}
-.alies-contact-text-field span em strong{
-    font-weight: 900;
-}
+  }
 
-.alies-contact-text-field h6{
-    font-size: 14px;
-    font-weight: 500;
-    padding: .5rem;
-    padding-bottom: 1rem;
-}
-.alies-contact-text-field button{
-    font-size: 15px;
-    font-weight: 700;
-    color: #ec6f2d;
-    border: none;
-    border-radius: 8px;
-    padding:  12px 24px;
-    text-transform: uppercase;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.alies-container-proveedores{
-    height: 405px;
-    background-image: url("https://dropi.co/wp-content/uploads/2023/05/trabaja_con_-nosotros_cta.png");
-    text-align: center;
-    top: 50%;
-    position: relative;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-.alies-container-proveedores-text{
-    top: 37%;
-    position: relative;
-    font-size: 28px;
-    font-weight: 700;
-}
-.alies-container-proveedores-button{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    top: 41.8%;
-    color: #ffffff;
-    border: none;
-    background-color: #ec6f2d;
-    border-radius: 6px;
-    padding: 15px 30px;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-
-@media screen and (min-width: 1200px ) {
-    .alies-contact-container{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .alies-contact-image, .alies-contact-text-field{
-        width: 550px; 
-        box-sizing: border-box;
-    }
-    .alies-contact-text-field h2{
-        font-size: 42px;
-        font-weight: 800;
-    }
-    .alies-contact-text-field h5{
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .alies-contact-text-field h6{
-        display: none;
-    }
-    .alies-contact-text-field button{
-        margin-top: .5rem;
-        line-height: 15px;
-    }
-
-
-    .alies-container-video{
-        width: 100%;
-        height: 100%;
-        background-color: #ec6f2d;
-    }
-    .alies-video{
-        width: 100%;
-        height: 100vh;
-    }
+  .alies-video {
+    width: 100%;
+    height: 100vh;
+  }
 }
