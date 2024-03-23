@@ -2,13 +2,8 @@ import './Dropshipper.css'
 import ProductCard from '../ProductCard/ProductCard'
 import Header from '../Header/Header'
 import Boxes from '../Boxes/Boxes'
+import Integration from '../Common/Integrations/Integrations'
 function DropshipperSolutions() {
-  const dataIntegrations = [
-    {title: 'WooCommerce', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_woocommerce.png'},
-    {title: 'Shopify', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_shopify.png'},
-    {title: 'Chat Center', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_chatcenter.png'},
-    {title: '3pod 3dpod', image: 'https://dropi.co/wp-content/uploads/2023/10/3pod.png'},
-  ]
   const dataCards = [
     { title: 'INGRESAR A LA PLATAFORMA DE DROPI', image: 'https://dropi.co/wp-content/uploads/2023/06/dropshippers_caracteristicas_01.png' },
     { title: 'BUSCAR LOS PRODUCTOS QUE MÁS LE INTERESEN', image: 'https://dropi.co/wp-content/uploads/2023/06/dropshippers_caracteristicas_02.png' },
@@ -49,21 +44,7 @@ function DropshipperSolutions() {
         <iframe src="https://www.youtube-nocookie.com/embed/A7PgU8ObFtQ?controls=1&rel=0&playsinline=0&modestbranding=1&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fdropi.co&widgetid=1" frameborder="0" controls autoPlay></iframe>
       </section>
 
-      <div className='dropshippers-integrations'>
-        <h1>Integraciones</h1>
-        <button>Disponibles</button>
-      </div>
-      <article className="dropshippers-cards-content">
-        {dataIntegrations.map((dato, index) => (
-          <main key={index} className="dropshippers-card">
-            <div>
-              <img src={dato.image} alt="" />
-            </div>
-            <h1>{dato.title}</h1>
-            <button>Ver</button>
-          </main>
-        ))}
-      </article>
+     <Integration/>
     </>
   )
 }

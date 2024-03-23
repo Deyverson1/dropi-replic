@@ -1,0 +1,82 @@
+/* Dropshippers */
+
+.integrations{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 2rem;
+  padding-top: 5rem;
+  gap: 10px;
+}
+
+.integrations h1{
+  font-size: 40px;
+  color: #101f31;
+  text-transform: uppercase;
+}
+
+.integrations button{
+  background-color: #F39A3D;
+  border: 0px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+/* Cards-integrations */
+.integrations-cards-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-inline: 8rem;
+  gap: 20px;
+}
+.integrations-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  border-radius: 20px;
+  padding-block: 3rem;
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.2);
+}
+.integrations-card h1 {
+  text-transform: uppercase;
+  width: fit-content;
+}
+.integrations-card div {
+  width: 55%;
+  height: 55%;
+}
+.integrations-card div img {
+  width: 100%;
+  scale: 1.3;
+}
+.integrations-card button{
+  background-color: #EC6F2D;
+  border: 2px solid #EC6F2D;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-size: 16px;
+  padding-block: 10px;
+  padding-inline: 27px;
+}
+.integrations-card button:hover{
+  outline: 3px solid #FC9F6D ;
+}
+
+@media screen and (max-width: 427px) {
+  .integrations-cards-content{
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+  .integrations-card{
+    width: 100%;
+    padding-inline: 0px;
+  }
+}

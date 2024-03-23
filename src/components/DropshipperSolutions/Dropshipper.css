@@ -18,7 +18,8 @@
   object-fit: cover;
   aspect-ratio: 1/1;
 }
-.dropshipper-card-container article h3{
+
+.dropshipper-card-container article h3 {
   color: #101f31;
   padding-top: 10px;
   font-size: 13px;
@@ -28,103 +29,23 @@
 }
 
 /* dropshipper-seller */
-.dropshipper-seller{
+.dropshipper-seller {
   background-color: #F39A3D;
   text-align: center;
   padding-block: 4rem;
   margin-bottom: 4rem;
 }
-.dropshipper-seller h2{
+
+.dropshipper-seller h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 500;
 }
 
-/* Dropshippers */
-
-.dropshippers-integrations{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding-block: 2rem;
-  padding-top: 5rem;
-  gap: 10px;
-}
-
-.dropshippers-integrations h1{
-  font-size: 40px;
-  color: #101f31;
-  text-transform: uppercase;
-}
-
-.dropshippers-integrations button{
-  background-color: #F39A3D;
-  border: 0px;
-  font-size: 18px;
-  color: #fff;
-  text-transform: uppercase;
-  border-radius: 20px;
-  padding-block: 10px;
-  padding-inline: 20px;
-}
-/* Cards-dropshippers */
-.dropshippers-cards-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 5rem;
-  padding-inline: 8rem;
-  gap: 20px;
-}
-.dropshippers-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 20%;
-  text-align: center;
-  border-radius: 20px;
-  padding-block: 3rem;
-  box-shadow: 0 0 17px rgba(0, 0, 0, 0.2);
-}
-.dropshippers-card h1 {
-  text-transform: uppercase;
-  width: fit-content;
-}
-.dropshippers-card div {
-  width: 55%;
-  height: 55%;
-}
-.dropshippers-card div img {
-  width: 100%;
-  scale: 1.3;
-}
-.dropshippers-card button{
-  background-color: #EC6F2D;
-  border: 2px solid #EC6F2D;
-  border-radius: 20px;
-  margin-top: 30px;
-  font-size: 16px;
-  padding-block: 10px;
-  padding-inline: 27px;
-}
-.dropshippers-card button:hover{
-  outline: 3px solid #FC9F6D ;
-}
-
 @media screen and (max-width: 427px) {
-  .dropshipper-card-container{
-  flex-wrap: wrap;
-  padding-inline: 10px;
-  }
-  .dropshippers-cards-content{
+  .dropshipper-card-container {
     flex-wrap: wrap;
-    padding: 40px;
+    padding-inline: 10px;
   }
-  .dropshippers-card{
-    width: 100%;
-    padding-inline: 0px;
-  }
-    
 }

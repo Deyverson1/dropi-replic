@@ -3,11 +3,12 @@ import ProductCard from '../ProductCard/ProductCard'
 import TwoColumn from '../TwoColumn/TwoColumn'
 import Header from '../Header/Header'
 import Boxes from '../Boxes/Boxes'
-function BrandSolutions(){
+import Integration from '../Common/Integrations/Integrations'
+function BrandSolutions() {
   const data = [
-    {title: 'FLETES ECONÓMICOS Y TARIFAS COMPETITIVAS PARA TU NEGOCIO', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_01.jpg'},
-    {title: 'ALMACENAMOS, RECIBIMOS Y CUIDAMOS TUS PRODUCTOS EN NUESTROS CENTROS LOGÍSTICOS', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_02.jpg'},
-    {title: 'EMPACAMOS TUS PRODUCTOS POR TÍ', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_03.jpg'},
+    { title: 'FLETES ECONÓMICOS Y TARIFAS COMPETITIVAS PARA TU NEGOCIO', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_01.jpg' },
+    { title: 'ALMACENAMOS, RECIBIMOS Y CUIDAMOS TUS PRODUCTOS EN NUESTROS CENTROS LOGÍSTICOS', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_02.jpg' },
+    { title: 'EMPACAMOS TUS PRODUCTOS POR TÍ', image: 'https://dropi.co/wp-content/uploads/2023/05/marca_propia_beneficios_03.jpg' },
 
   ]
   const titleProduct = 'MARCA PROPIA'
@@ -23,12 +24,25 @@ function BrandSolutions(){
     "Administra tu billetera electrónica.",
     "Retira tu dinero cuando quieras."
   ]
-  return(
+  return (
     <>
-    <Header/>
-    <ProductCard titleProduct={titleProduct} contentProduct={contentProduct} subTitle={subTitle} color={'#FFBE47'} image={'https://dropi.co/wp-content/uploads/2023/06/BANNER-MARCA-PROPia-1024x1024.png'}/>
-    <TwoColumn firstRow={firstRow} secondRow={secondRow} />
-    <Boxes data={data} color={'#FFBE47'}/>
+      <Header />
+      <ProductCard titleProduct={titleProduct} contentProduct={contentProduct} subTitle={subTitle} color={'#FFBE47'} image={'https://dropi.co/wp-content/uploads/2023/06/BANNER-MARCA-PROPia-1024x1024.png'} />
+      <TwoColumn firstRow={firstRow} secondRow={secondRow}/>
+      <Boxes data={data} color={'#FFBE47'} />
+      <Integration />
+      <section className='suppliers-content-video'>
+        <iframe src="https://www.youtube-nocookie.com/embed/A7PgU8ObFtQ?controls=1&rel=0&playsinline=0&modestbranding=1&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fdropi.co&widgetid=1" controls autoPlay></iframe>
+      </section>
+      <section className='brand-footer-content'>
+        <div>
+          <h1>Automatiza tus</h1>
+          <button>Pedidos con dropi</button>
+        </div>
+        <main>
+          <img src="https://dropi.co/wp-content/uploads/2023/05/marca_propia_como_funciona-1536x819.png" alt="" />
+        </main>
+      </section>
     </>
   )
 }
