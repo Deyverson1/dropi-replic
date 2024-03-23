@@ -61,6 +61,6 @@
   }
 
   .list-container-column ul {
-    width: 100%;
+    max-width: 100%;
   }
 }
