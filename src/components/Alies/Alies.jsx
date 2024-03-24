@@ -21,7 +21,7 @@ export default function Alies() {
       <ContactAlies button={'Contactanos'} />
       <div className='alies-container-proveedores'>
         <h3 className='alies-container-proveedores-text'>Conoce nuestros proveedores  verificados</h3>
-        <button className='alies-container-proveedores-button'>Proveedores</button>
+        <Link to={'proveedores-premium/'}><button className='alies-container-proveedores-button'>Proveedores</button></Link>
       </div>
     </section>
   )

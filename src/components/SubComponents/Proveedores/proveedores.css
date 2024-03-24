@@ -80,7 +80,6 @@ video {
 .parrafo-proveedores {
   color: #fff;
   width: 100%;
-
   font-size: 18px;
   line-height: 27px;
   font-weight: 500;
@@ -96,7 +95,7 @@ video {
     padding-inline: 3rem;
   }
   .parrafo-proveedores{
-    /* margin-top: -180px; */
+    margin-top: -165px !important;
   }
 }
 

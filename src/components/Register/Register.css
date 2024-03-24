@@ -1,5 +1,5 @@
 .register-container {
-  padding: 80px 16px 32px;
+  padding: 40px 16px 32px;
 }
 
 .register-title {
@@ -15,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 60px;
+  gap: 25px;
   padding-top: 1rem;
 }
 
@@ -39,15 +39,15 @@
 
 .register-country-button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 13px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #ec6f2d;
   border: none;
-  border-radius: 10px;
-  padding: 4px 8px;
-  text-transform: uppercase;
+  border-radius: 15px;
+  padding: 7px 10px;
+
 }
 
 .register-country-button:hover {

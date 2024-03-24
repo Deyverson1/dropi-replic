@@ -33,7 +33,9 @@
 
 .alies-container-video {
   width: 100%;
-  background-color: #ec6f2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 

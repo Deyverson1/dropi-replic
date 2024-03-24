@@ -74,7 +74,7 @@
 @media screen and (max-width: 1000px){
     .carousel button{
         padding-top: 20px;
-        margin: -35px;
+        margin: -30px;
     }
     .image{
        height: 80px;
