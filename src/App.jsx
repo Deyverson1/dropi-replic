@@ -16,6 +16,7 @@ import ScrollToTop from './components/ScrollTop';
 import SuppliersSolutions from './components/SuppliersSolutions/SuppliersSolutions';
 import DropshipperSolutions from './components/DropshipperSolutions/DropshipperSolutions';
 import BrandSolutions from './components/BrandSolutions/BrandSolutions';
+import Privacy from './components/Privacy/Privacy';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -34,11 +35,12 @@ function App() {
         <Route path='/Contact/' element={<Contact />} />
         <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
         <Route path='/proveedores-premium/' element={<Proveedores />} />
-        <Route path='/Register' element={<Registrate/>} />
-        <Route path='/dropi-academy' element={<Academy/>} />
-        <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions/>}/>
-        <Route path='/soluciones-para-dropshippers/' element={ <DropshipperSolutions/> } />
-        <Route path='/soluciones-para-marca-propia/' element={<BrandSolutions/>} />
+        <Route path='/Register' element={<Registrate />} />
+        <Route path='/dropi-academy' element={<Academy />} />
+        <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions />} />
+        <Route path='/soluciones-para-dropshippers/' element={<DropshipperSolutions />} />
+        <Route path='/soluciones-para-marca-propia/' element={<BrandSolutions />} />
+        <Route path='/politica-privacidad/' element={<Privacy/>}/>
       </Routes>
       <Footer />
     </Router>

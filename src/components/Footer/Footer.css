@@ -9,6 +9,9 @@
     width: 100%;
     box-sizing: border-box; */
 }
+.footer-container a:hover, .footer-container Link:hover{
+    color: #f7d2bf;
+}
 .footer-links{
     padding: 16px 16px;
 }

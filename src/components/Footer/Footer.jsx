@@ -13,15 +13,15 @@ export default function Footer(){
     return(
         <footer className='footer-container'>
             <main className='footer-links'>
-            <img className='footer-image' src="https://dropi.co/wp-content/uploads/2023/05/logo_dropi_light.png" alt="" />
+            <Link to={'/'}><img className='footer-image' src="https://dropi.co/wp-content/uploads/2023/05/logo_dropi_light.png" alt="" /></Link>
             <section className='links-container'>
             <div className='footer-links-us'>
                 <Link to="/contact/">Contacto</Link>
                 <Link to="/dropi-academy">Capacitaciones Dropi</Link>
-                <Link to="/proveedores-premium/">Proveedores Premiun</Link>
+                <Link to="/proveedores-premium/">Proveedores Premium</Link>
             </div>
             <div className='footer-links-terms'>
-                <a href="#">Privacidad</a>
+                <Link to={'/politica-privacidad/'}>Privacidad</Link>
                 <a href="#">Términos y Condiciones</a>
             </div>
             <div className='footer-links-contact'>

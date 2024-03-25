@@ -35,7 +35,7 @@ function SuppliersSolutions() {
         <button>CONTÁCTANOS</button>
       </section>
       <section className='suppliers-content-video'>
-        <iframe src="https://www.youtube-nocookie.com/embed/A7PgU8ObFtQ?controls=1&rel=0&playsinline=0&modestbranding=1&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fdropi.co&widgetid=1" frameborder="0" controls autoPlay></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/A7PgU8ObFtQ?controls=1&rel=0&playsinline=0&modestbranding=1&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fdropi.co&widgetid=1" controls autoPlay></iframe>
       </section>
       <section className='suppliers-attach-announce'>
         <h1>¿Cómo funciona el</h1>
