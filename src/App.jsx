@@ -1,22 +1,26 @@
-import './App.css'
-import Alies from './components/Alies/Alies';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Register from './components/Register/Register';
-import WhatsApp from './components/WhatsApp/WhatsApp';
-import Dropicard from './components/SubComponents/Dropicard/Dropicard';
-import Contact from './components/SubComponents/Contact/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import IniciarSesion from './components/SubComponents/Iniciar sesion/IniciarSesion'
-import Proveedores from './components/SubComponents/Proveedores/Proveedores';
-import Registrate from './components/SubComponents/Registrate/Registrate';
-import Academy from './components/DropiAcademy/Academy';
+import Alies from './dashboard/Alies/Alies';
+import Footer from './dashboard/Footer/Footer';
+import Header from './dashboard/Header/Header';
+import Contact from './pages/Contact/Contact';
+import Dropicard from './pages/Dropicard/Dropicard';
+import RegisterCard from './components/Register/Register';
+import WhatsApp from './components/WhatsApp/WhatsApp';
+import LogIn from './pages/LogIn/LogIn'
+import Proveedores from './pages/Proveedores/Suppliers';
+
+import Academy from './pages/DropiAcademy/Academy';
 import ScrollToTop from './components/ScrollTop';
-import SuppliersSolutions from './components/SuppliersSolutions/SuppliersSolutions';
-import DropshipperSolutions from './components/DropshipperSolutions/DropshipperSolutions';
-import BrandSolutions from './components/BrandSolutions/BrandSolutions';
-import Privacy from './components/Privacy/Privacy';
+import SuppliersSolutions from './pages/SuppliersSolutions/SuppliersSolutions';
+import DropshipperSolutions from './pages/DropshipperSolutions/DropshipperSolutions';
+import BrandSolutions from './pages/BrandSolutions/BrandSolutions';
+import Privacy from './pages/Privacy/Privacy';
+import Video from './dashboard/Video/Video';
+import Cards from './dashboard/Cards/Cards';
+import AboutUs from './dashboard/About/AboutUs';
+import WhyDropi from './dashboard/WhyUs/WhyDropi';
+import Panels from './dashboard/Panels/Panels';
+import RegisterPage from './pages/Register/Register';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -25,17 +29,21 @@ function App() {
       <Routes>
         <Route path='/' element={<>
           <Header color='#5b5b5b' />
-          <Main />
+          <Video/>
+          <Cards/>
+          <AboutUs/>
+          <WhyDropi/>
+          <Panels/>
           <Alies />
-          <Register background='#fff' title={titleRegister} titleColor='#EC6F2D' />
+          <RegisterCard background='#fff' title={titleRegister} titleColor='#EC6F2D' />
           <WhatsApp />
         </>} />
         <Route path='/Dropicard/' element={<Dropicard />} />
         <Route path='/Footer/' element={<Footer />} />
         <Route path='/Contact/' element={<Contact />} />
-        <Route path='/Iniciar-sesion/' element={<IniciarSesion />} />
+        <Route path='/Iniciar-sesion/' element={<LogIn />} />
         <Route path='/proveedores-premium/' element={<Proveedores />} />
-        <Route path='/Register' element={<Registrate />} />
+        <Route path='/Register' element={<RegisterPage />} />
         <Route path='/dropi-academy' element={<Academy />} />
         <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions />} />
         <Route path='/soluciones-para-dropshippers/' element={<DropshipperSolutions />} />

@@ -1,6 +1,6 @@
 import './Register.css'
 
-export default function Register(props) {
+export default function RegisterCard(props) {
   const countries = [
     { country: 'Colombia', image: 'https://dropi.co/wp-content/uploads/2023/05/colombia.png' },
     { country: 'Panamá', image: 'https://dropi.co/wp-content/uploads/2023/05/panama.png' },
