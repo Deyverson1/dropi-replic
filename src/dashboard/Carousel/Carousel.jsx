@@ -1,6 +1,6 @@
 import './Carousel.css'
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel';
 export default function CarouselDashboard() {
     const responsive = {
         superLargeDesktop: {
@@ -33,6 +33,7 @@ export default function CarouselDashboard() {
                 autoPlay={true}
                 autoPlaySpeed={3000}
                 rewind={true}
+                infinite={true}
                 >
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_coodinadora-q66plbfyib5bhjbkjx5c6xl193n5juv9k37cvmx7c8.png" alt="" />
                     <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_envia-q66plcdsp56lt5a7efjyrfchuhiirjyzw7uucwvt60.png" alt="" />

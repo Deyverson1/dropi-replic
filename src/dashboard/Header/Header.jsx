@@ -24,12 +24,12 @@ export default function Header(props) {
                         <article key={index}>
                             {
                                 dato.type == 'Link' && (
-                                    <Link to={dato.to} style={{ color: color }}>{dato.title}</Link>
+                                    <Link to={dato.to} className='links-header'>{dato.title}</Link>
                                 )
                             }
                             {
                                 dato.type !== 'Link' && (
-                                    <a href="/#Panels" style={{ color: color }}>{dato.title}</a>
+                                    <a href="/#Panels">{dato.title}</a>
                                 )
                             }
 

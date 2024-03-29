@@ -79,6 +79,9 @@
         line-height: 21px;
         color: #5b5b5b;
     }
+    .navigation-links-container a:hover{
+        color: #808080;
+    }
     .navigation-button{
         padding: 8px 15px;
         background-color: #eC6f2d;
