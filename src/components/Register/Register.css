@@ -53,3 +53,9 @@
 .register-country-button:hover {
   outline: 4px solid #f5ad85;
 }
+
+@media screen and (max-width: 427px) {
+  .register-country-name {
+    padding: 0;
+  }
+}

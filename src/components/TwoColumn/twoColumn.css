@@ -3,7 +3,6 @@
   border: none;
   position: relative;
   top: 25%;
-
   color: #ffff;
   border-radius: 50px;
   padding: 10px 30px;
@@ -56,8 +55,9 @@
 
   .list-container-column {
     flex-direction: column;
-    margin: 0 8px;
+    margin: 0 3px;
     padding-bottom: 40px;
+    gap: 0;
   }
 
   .list-container-column ul {

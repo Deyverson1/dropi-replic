@@ -8,7 +8,6 @@ import RegisterCard from './components/Register/Register';
 import WhatsApp from './components/WhatsApp/WhatsApp';
 import LogIn from './pages/LogIn/LogIn'
 import Proveedores from './pages/Proveedores/Suppliers';
-
 import Academy from './pages/DropiAcademy/Academy';
 import ScrollToTop from './components/ScrollTop';
 import SuppliersSolutions from './pages/SuppliersSolutions/SuppliersSolutions';
@@ -29,11 +28,11 @@ function App() {
       <Routes>
         <Route path='/' element={<>
           <Header color='#5b5b5b' />
-          <Video/>
-          <Cards/>
-          <AboutUs/>
-          <WhyDropi/>
-          <Panels/>
+          <Video />
+          <Cards />
+          <AboutUs />
+          <WhyDropi />
+          <Panels />
           <Alies />
           <RegisterCard background='#fff' title={titleRegister} titleColor='#EC6F2D' />
           <WhatsApp />
@@ -48,7 +47,7 @@ function App() {
         <Route path='/soluciones-para-proveedores/' element={<SuppliersSolutions />} />
         <Route path='/soluciones-para-dropshippers/' element={<DropshipperSolutions />} />
         <Route path='/soluciones-para-marca-propia/' element={<BrandSolutions />} />
-        <Route path='/politica-privacidad/' element={<Privacy/>}/>
+        <Route path='/politica-privacidad/' element={<Privacy />} />
       </Routes>
       <Footer />
     </Router>

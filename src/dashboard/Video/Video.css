@@ -9,7 +9,7 @@
 .main-video-text-container{
     position: absolute;
     width: 100%;
-    top: 33%;
+    top: 31%;
     color: white;
     text-transform: uppercase;
     z-index: 10;
@@ -33,6 +33,7 @@
     font-weight: 800;
     
 }
+
 @media screen and (min-width:1200px){
     .main-video{
         max-height: 75vh;
@@ -60,5 +61,10 @@
     }
     .main-video-action span{
         font-weight: 800;
+    }
+}
+@media screen and (min-width:768px){
+    .main-video-text-container{
+        top: 33%;
     }
 }
