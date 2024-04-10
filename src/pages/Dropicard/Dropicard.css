@@ -14,7 +14,7 @@
     text-transform: uppercase;
 } 
 .containerText{
-    margin: 2px 8px 8px 8px;
+    margin: 7px 8px 8px 8px;
     padding: 10px 20px 10px 20px;
     background-color: #ec6f2d;
     border-radius: 48px 48px 48px 48px;
@@ -30,6 +30,7 @@
     color: #ffffff;
     font-weight: 800;
     text-transform: uppercase;
+    cursor: default;
 }
 /* image */
 
@@ -58,7 +59,7 @@
     text-transform: uppercase;
 }
 .secondContainerText{
-    margin: 2px 8px 8px 8px;
+    margin: 7px 8px 8px 8px;
     padding: 10px 20px 10px 20px;
     background-color: #ec6f2d;
     border-radius: 48px 48px 48px 48px;
@@ -109,7 +110,7 @@
     font-size: 28px;
     font-weight: 700;
     color: #ffffff;
-    padding-bottom: .2rem;
+    padding-bottom: .7rem;
 }
 .contactDropicard span{
     font-size: 42px;

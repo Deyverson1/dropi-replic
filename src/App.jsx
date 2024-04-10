@@ -20,6 +20,7 @@ import AboutUs from './dashboard/About/AboutUs';
 import WhyDropi from './dashboard/WhyUs/WhyDropi';
 import Panels from './dashboard/Panels/Panels';
 import RegisterPage from './pages/Register/Register';
+import WorkWhitUs from './pages/WorkWhitUs/WorkWhitUs';
 function App() {
   const titleRegister = 'Regístrate'
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path='/soluciones-para-dropshippers/' element={<DropshipperSolutions />} />
         <Route path='/soluciones-para-marca-propia/' element={<BrandSolutions />} />
         <Route path='/politica-privacidad/' element={<Privacy />} />
+        <Route path='/trabaja-con-nosotros/' element={<WorkWhitUs />} />
       </Routes>
       <Footer />
     </Router>

@@ -27,7 +27,7 @@ export default function Footer(){
             <div className='footer-links-contact'>
                 <a href="https://api.whatsapp.com/send?phone=573218379821&text=Hola%20vengo%20de%20la%20Web%20y%20deseo%20saber%20m%C3%A1s%20de%20Dropi" target='_blank'>(+57) 321 8379821</a>
                 <a href="mailto:comercial@dropi.co" target='_blank'>comercial@dropi.co</a>
-                <a href="#">Trabaja con Nosotros</a>
+                <Link to="/trabaja-con-nosotros">Trabaja con Nosotros</Link>
             </div>
             </section>
             </main>

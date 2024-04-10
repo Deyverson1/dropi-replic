@@ -1,0 +1,115 @@
+.team-head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-block: 4rem;
+  text-transform: uppercase;
+}
+
+.team-head-container h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #101f31;
+}
+
+.team-head-container span {
+  font-size: 52px;
+  background-color: #ec6f2d;
+  color: #fff;
+  border-radius: 30px;
+  padding-inline: 18px;
+  padding-block: 7px;
+  font-weight: 700;
+}
+
+/* Form */
+
+.team-form-container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 14rem;
+}
+
+.team-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.team-form-container form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-form-container form div label {
+  color: #101f31;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.team-form-container form div input,
+.team-form-container form div select {
+  padding-inline: 20px;
+  padding-block: 14px;
+  background-color: transparent;
+  color: gray;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.team-form-container form div select {
+  color: #101f31;
+  font-size: 18px;
+}
+
+.team-form-container form div input:focus {
+  border: 2px solid red;
+}
+
+.form-file {
+  padding-inline: 0 !important;
+  padding-block: 2px !important;
+  border: 0px solid transparent !important;
+  font-size: 18px !important;
+}
+
+.button-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 20px;
+}
+
+.button-form button {
+  background-color: #ec6f2d;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 0;
+  font-weight: 600;
+  padding-block: 7px;
+  padding-inline: 30px;
+}
+.button-form button:hover{
+  background-color: #d9783e;
+}
+
+
+.span-footer-ofertas{
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #F7FAFF;
+  padding-block: 7rem;
+  gap: 5px;
+}
+.span-footer-ofertas h1{
+  font-weight: 500;
+  color: #101f31;
+}
