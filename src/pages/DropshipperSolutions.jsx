@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `DropshipperSolutions`. It is a functional component
+that represents a page or section of a website related to dropshipping solutions. */
 import '../styles/pages/Dropshipper.css'
 import ProductCard from '../components/ProductCard'
 import Header from '../dashboard/Header'
@@ -23,10 +25,10 @@ function DropshipperSolutions() {
   const contentProduct = ['ES UN MODELO DE NEGOCIO QUE PERMITE A CUALQUIER EMPRESA, EMPRENDIMIENTO O PERSONA VENDER PRODUCTOS DE DIFERENTES PROVEEDORES SIN NECESIDAD DE COMPRARLOS PREVIAMENTE']
 
   return (
-    <>
+    <section>
       <Header />
       <ProductCard titleProduct={titleProduct} color={'#F39A3D'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/dropshippers_hero.png'} />
-      <section className='dropshipper-card-container'> 
+      <section className='dropshipper-card-container'>
         {dataCards.map((dato, index) => (
           <article key={index}>
             <div>
@@ -43,9 +45,8 @@ function DropshipperSolutions() {
       <section className='suppliers-content-video'>
         <iframe src="https://www.youtube-nocookie.com/embed/A7PgU8ObFtQ?controls=1&rel=0&playsinline=0&modestbranding=1&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fdropi.co&widgetid=1" controls autoPlay></iframe>
       </section>
-
-     <Integration/>
-    </>
+      <Integration />
+    </section>
   )
 }
 export default DropshipperSolutions;

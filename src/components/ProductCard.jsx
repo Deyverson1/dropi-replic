@@ -1,3 +1,5 @@
+/* The code snippet is a React component named `ProductCard`. It is a functional component
+that takes in props such as `titleProduct`, `contentProduct`, `subTitle`, `color`, and `image`. */
 import '../styles/components//productCard.css'
 function ProductCard({ titleProduct, contentProduct, subTitle, color, image }) {
   return (

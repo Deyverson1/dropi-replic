@@ -1,3 +1,8 @@
+/* This code snippet is a React component named `SuppliersSolutions`. It imports several components
+such as `Header`, `ProductCard`, `TwoColumn`, and `Boxes` along with a CSS file. Inside the
+component, there are data arrays for product information, first and second row content, and then it
+renders these components along with some HTML elements like headings, buttons, and images to display
+supplier solutions information on a webpage. */
 import Header from '../dashboard/Header';
 import ProductCard from '../components/ProductCard';
 import TwoColumn from '../components/TwoColumn';
@@ -23,7 +28,7 @@ function SuppliersSolutions() {
     "Crear un medio de distribución fácil y tecnológico, fuera de lo convencional.",
   ]
   return (
-    <>
+    <section>
       <Header />
       <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/proveedores_hero.png'} />
       <TwoColumn firstRow={firstRow} secondRow={secondRow} color={'#ec6f2d'}/>
@@ -43,7 +48,7 @@ function SuppliersSolutions() {
           <img src="https://dropi.co/wp-content/uploads/2023/05/proveedores_como_funciona.png" alt="" />
         </div>
       </section>
-    </>
+    </section>
   )
 }
 export default SuppliersSolutions;

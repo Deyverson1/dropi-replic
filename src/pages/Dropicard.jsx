@@ -1,3 +1,5 @@
+/* This code is a React component named `Dropicard`. It includes imports for CSS styles, `Link` from
+`react-router-dom`, and other components like `Header`, `TwoColumn`, and `ProductCard`. */
 import "../styles/pages/Dropicard.css"
 import { Link } from "react-router-dom";
 import Header from '../dashboard/Header'
@@ -18,9 +20,9 @@ export default function Dropicard() {
     "Compra online, sin límites."
   ]
   return (
-    <>
+    <section>
       <Header />
-      <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/home_header_art-1000x1024.png'}/>
+      <ProductCard titleProduct={titleProduct} color={'#ec6f2d'} contentProduct={contentProduct} image={'https://dropi.co/wp-content/uploads/2023/05/home_header_art-1000x1024.png'} />
       <TwoColumn firstRow={firstRow} color={'#ec6f2d'} secondRow={secondRow} />
       <section className="textFullContainer">
         <h2 className="textTitle">¿Qué podrás</h2>
@@ -48,7 +50,6 @@ export default function Dropicard() {
           <Link to="https://api.whatsapp.com/send?phone=573218379821&text=Hola%20vengo%20de%20la%20Web%20y%20deseo%20saber%20m%C3%A1s%20sobre%20la%20capacitaci%C3%B3n%20de%20la%20plataforma!%20"><button className="contactDropicardtextDropiCard">CONTÁCTANOS</button></Link>
         </div>
       </section>
-
-    </>
+    </section>
   )
 }

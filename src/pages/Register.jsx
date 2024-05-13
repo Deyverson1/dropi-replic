@@ -1,3 +1,6 @@
+/* The code you provided is a React functional component named `RegisterPage`. It is importing various
+components and styles at the beginning of the file. Inside the component, it is rendering a section
+with the following structure: */
 import '../styles/pages/register.css'
 import Header from "../dashboard/Header"
 import Cards from "../dashboard/Cards"
@@ -6,7 +9,7 @@ import CarouselDashboard from "../dashboard/Carousel"
 import RegisterCard from "../components/Register"
 export default function RegisterPage() {
   return (
-    <>
+    <section>
       <Header />
       <RegisterCard background='#EC6F2D' title={'Regístrate'} titleColor='#fff' paddingBottom='80px' />
       <section>
@@ -17,6 +20,6 @@ export default function RegisterPage() {
       <Cards />
       <ContactAlies button={'Regístrate'} />
       <CarouselDashboard />
-    </>
+    </section>
   )
 }

@@ -1,3 +1,11 @@
+/**
+ * The function `WhyDropi` renders a list of reasons to use Dropi platform with corresponding icons and
+ * styling.
+ * @returns The `WhyDropi` component is being returned, which contains a main element with a className
+ * of 'why-us-main'. Inside the main element, there is a div element with a className of
+ * 'why-us-container'. Within this div, there is an image element with a className of 'why-us-image'
+ * and a source of "/dashboard/por-que-dropi.png". Next to the image
+ */
 import '../styles/dashboard/WhyDropi.css'
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

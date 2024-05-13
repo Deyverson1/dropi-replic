@@ -1,25 +1,17 @@
+/**
+ * The function `CarouselDashboard` renders a carousel component displaying images of various allies
+ * with responsive settings.
+ * @returns The code snippet is a React functional component named `CarouselDashboard` that returns a
+ * carousel component displaying images of different allies. The component includes a title "Aliados",
+ * a container for the carousel, and a `Carousel` component from the `react-multi-carousel` library.
+ * The `Carousel` component is configured with various props such as arrows, responsive settings,
+ * draggable, swipeable, showDots,
+ */
 import '../styles/dashboard/Carousel.css'
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import  { responsive } from '../components/Responsive'
 export default function CarouselDashboard() {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 6
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 4
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 3
-    }
-  }
   return (
     <div className='carousel-container'>
       <h5>Aliados</h5>
@@ -44,7 +36,6 @@ export default function CarouselDashboard() {
           <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_shopify-q66plcdsp56lt5a7efjyrfchuhiirjyzw7uucwvt60.png" alt="" />
           <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/aliado_woocommerce-q66plcdsp56lt5a7efjyrfchuhiirjyzw7uucwvt60.png" alt="" />
           {/* <img className='image' src="https://dropi.co/wp-content/uploads/elementor/thumbs/logo_99minutos-qdnryspe0e4x89ch40f9dt692h05b8bwbrjtelwfvs.png" alt="" /> */}
-
         </Carousel>
       </div>
     </div>

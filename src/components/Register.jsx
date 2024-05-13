@@ -1,6 +1,15 @@
+/**
+ * The RegisterCard component renders a section with a title, background color, and a list of countries
+ * with images and buttons.
+ * @returns The RegisterCard component is being returned. It is a section element with a container for
+ * registration information. It includes a title, a list of countries with images and buttons for each
+ * country. The styling of the component is determined by the props passed to it, such as background
+ * color, title color, and padding bottom.
+ */
 import '../styles/components/Register.css'
 
 export default function RegisterCard(props) {
+  const { title, background, titleColor, paddingBottom } = props
   const countries = [
     { country: 'Colombia', image: '/countries/colombia.png' },
     { country: 'Panamá', image: '/countries/panama.png' },
@@ -10,7 +19,6 @@ export default function RegisterCard(props) {
     { country: 'Perú', image: '/countries/peru.png' },
     { country: 'España', image: '/countries/spain.png' },
   ]
-  const { title, background, titleColor, paddingBottom } = props
   return (
     <section className='register-container' style={{ backgroundColor: background, paddingBottom: paddingBottom }}>
       <h3 className='register-title' style={{ color: titleColor }} >{title}</h3>

@@ -1,10 +1,12 @@
+/* This code snippet is a React component named `Integration` that displays a list of integrations with
+their titles and images. Here's a breakdown of what the code is doing: */
 import '../styles/components/Integrations.css'
 function Integration() {
   const dataIntegrations = [
     {title: 'WooCommerce', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_woocommerce.png'},
     {title: 'Shopify', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_shopify.png'},
     {title: 'Chat Center', image: 'https://dropi.co/wp-content/uploads/2023/05/integracion_chatcenter.png'},
-    {title: '3pod 3dpod', image: 'https://dropi.co/wp-content/uploads/2023/10/3pod.png'},
+    // {title: '3pod 3dpod', image: 'https://dropi.co/wp-content/uploads/2023/10/3pod.png'},
   ]
   return (
     <>

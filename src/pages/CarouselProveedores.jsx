@@ -1,6 +1,9 @@
+/* This code is a React component called `CarruselProveedores` that creates a carousel of suppliers.
+Here's a breakdown of what the code does: */
 import '../styles/pages/proveedores-carousel.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { responsiveProveedorees } from '../components/Responsive';
 export default function CarruselProveedores() {
   const data = [
     { title: 'Alma Cosmetic', image: 'https://dropi.co/wp-content/uploads/2023/05/LOGO-ALMA-4.png' },
@@ -16,26 +19,8 @@ export default function CarruselProveedores() {
     { title: 'Stockeado', image: 'https://dropi.co/wp-content/uploads/2024/01/STOCKEADO-LOGO.png' },
     { title: 'Suppli', image: 'https://dropi.co/wp-content/uploads/2023/06/LOGO-SUPPLI-BLANCO-1024x1024.png' },
     { title: 'Xhobbies', image: 'https://dropi.co/wp-content/uploads/2023/05/xhobbies.png' },
-
   ]
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 6
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  }
+  
   return (
     <section draggable='false'  className='proveedores-carousel-container'>
       <div className='text-container-proveedores'>
@@ -45,7 +30,7 @@ export default function CarruselProveedores() {
         <Carousel
           className='proveedores-carousel'
           arrows={true}
-          responsive={responsive}
+          responsive={responsiveProveedorees}
           draggable={true}
           swipeable={true}
           showDots={true}

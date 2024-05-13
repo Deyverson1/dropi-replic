@@ -3,7 +3,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function TwoColumn({ firstRow, secondRow, color }) {
   return (
-    <>
+    <section>
       <div className="container-button-column">
         <button className="button-content-column" style={{backgroundColor: color}}>Beneficios</button>
       </div>
@@ -17,7 +17,7 @@ function TwoColumn({ firstRow, secondRow, color }) {
         ))}
         </ul>
       </section>
-    </>
+    </section>
   )
 }
 

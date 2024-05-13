@@ -1,3 +1,6 @@
+/* The provided code is a React component named `Academy`. It imports a CSS file for styling and a
+`Header` component from a specific directory. Inside the component, there is an array called `data`
+containing objects with `subTitle` and `link` properties. */
 import '../styles/pages/academy.css'
 import Header from '../dashboard/Header';
 export default function Academy() {
@@ -9,7 +12,6 @@ export default function Academy() {
     { subTitle: 'Chatbot', link: 'https://dropi.co/wp-content/uploads/2023/12/CHATBOT.png' },
     { subTitle: 'Procesos Logísticos', link: 'https://dropi.co/wp-content/uploads/2023/12/PROCESOS-LOGISTICOS-1.png' },
   ]
-
 
   return (
     <section>

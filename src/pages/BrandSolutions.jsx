@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `BrandSolutions`. It imports CSS styles and various
+components such as `Header`, `ProductCard`, `TwoColumn`, `Boxes`, and `Integration`. */
 import '../styles/pages/Brand.css'
 import Header from '../dashboard/Header'
 import ProductCard from '../components/ProductCard'

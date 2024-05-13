@@ -1,3 +1,13 @@
+/**
+ * The Privacy component in this React application displays a detailed privacy policy for a company,
+ * outlining data protection principles, definitions, rights of data subjects, and procedures for
+ * exercising those rights.
+ * @returns The Privacy component is being returned, which includes a detailed policy on data
+ * protection and privacy practices of DROPI S.A.S. The component includes sections on preamble,
+ * introduction, definitions, principles for data processing, types of data, purposes of data
+ * processing, classification of databases, rights of data subjects, duties of DROPI S.A.S. in relation
+ * to data processing, procedures for data subjects to
+ */
 import Header from '../dashboard/Header';
 import '../styles/pages/Privacy.css'
 function Privacy() {
@@ -119,16 +129,11 @@ function Privacy() {
           <li> Que se asegure el respeto de sus derechos fundamentales.</li>
           <li>Que los datos de menores sean de naturaleza pública.</li>
         </ul>
-
-
         <p>        Cumplidos los anteriores requisitos, <strong>DROPI S.A.S.</strong> exigirá al representante legal o tutor del niño, niña o adolescente, la autorización para el tratamiento, previo a que el menor de su opinión frente al tratamiento que se le dará a sus datos, opinión que será valorada teniendo en cuenta la madurez, autonomía y capacidad para entender el asunto, tal como lo indica la Ley.
         </p>
         <p> <strong>DROPI S.A.S.</strong> y cualquier persona involucrada en el tratamiento de los datos personales de niños, niñas y adolescentes, velarán por el uso adecuado de los mismos. En cumplimiento de lo anterior, se aplican y desarrollan los principios y obligaciones establecidos en la Ley 1581 de 2012 y el Decreto 1377 de 2013.</p>
-
         Los datos de los menores se recolectan con el propósito de identificarlos y mantener con ellos una relación publicitaria, educativa, formativa, informativa y/o recreativa. La firma de la autorización por parte de los padres de familia y/o de los menores indica la aceptación de esta política, términos y condiciones, y ratifica su conocimiento y consentimiento con lo que aquí se describe.
         <p></p>
-
-
         <h2>3.5. Finalidades del tratamiento</h2>
         <p>Los datos recolectados por <strong>DROPI S.A.S.</strong> a través de sus diferentes canales transaccionales son tratados, entre otras, bajo las siguientes finalidades:</p>
         <ul>

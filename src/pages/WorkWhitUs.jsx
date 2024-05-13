@@ -1,7 +1,16 @@
+/**
+ * The function `WorkWhitUs` renders a form for users to apply to join the team, with fields for name,
+ * contact information, country, job position, and CV upload, along with a button to submit the
+ * application.
+ * @returns The `WorkWhitUs` component is being returned, which contains JSX elements for a form to
+ * apply for a job position within a company. The form includes fields for name, contact number, email,
+ * country, job vacancies, and the option to upload a CV. Additionally, there is a button to submit the
+ * form and a section at the bottom mentioning to stay updated on news and job vacancies through
+ */
 import React from "react";
 import '../styles/pages/WorkWhitUs.css'
 import Header from '../dashboard/Header'
-import { LinkedIn } from "../icons/LinkedIn";
+import { LinkedIn } from '../icons/LinkedIn'
 export default function WorkWhitUs() {
   return (
     <section>

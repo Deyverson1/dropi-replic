@@ -1,3 +1,11 @@
+/**
+ * The function `Panels` renders a list of panels with different solutions, each containing a title,
+ * text, and a button linking to more information.
+ * @returns The `Panels` component is being returned, which contains a list of solutions with titles,
+ * descriptions, colors, and links. Each solution is displayed in a panel format with a title, text,
+ * and a button linking to more information. The component iterates over the `solutions` array and
+ * generates a panel for each item in the array.
+ */
 import { Link } from 'react-router-dom'
 import '../styles/dashboard/Panels.css'
 export default function Panels() {

@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `App` that serves as the main entry point of the
+application. Here's a breakdown of what the code is doing: */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Alies from './dashboard/Alies';
 import Footer from './dashboard/Footer';

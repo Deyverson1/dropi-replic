@@ -1,3 +1,10 @@
+/**
+ * The Alies component renders a section with a carousel, a call-to-action button for skill
+ * enhancement, a video iframe, a contact section, and a section to showcase verified providers.
+ * @returns The Alies component is being returned, which includes sections for displaying a carousel,
+ * promoting skill enhancement, showcasing a video, providing a contact form, and highlighting verified
+ * suppliers.
+ */
 import '../styles/dashboard/Alies.css'
 import { Link } from 'react-router-dom'
 import CarouselDashboard from './Carousel'

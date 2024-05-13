@@ -1,6 +1,7 @@
+/* The code you provided is a React component named `ContactAlies`. Here's a breakdown of what it does: */
 import { Link } from 'react-router-dom'
 import '../styles/dashboard/Alies.css'
-export default function ContactAlies({button}) {
+export default function ContactAlies({ button }) {
   return (
     <section className='alies-contact-container'>
       <div>
