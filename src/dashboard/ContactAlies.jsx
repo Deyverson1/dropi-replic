@@ -4,9 +4,6 @@ import '../styles/dashboard/Alies.css'
 export default function ContactAlies({ button }) {
   return (
     <section className='alies-contact-container'>
-      <div>
-        <img className='alies-contact-image' src="https://dropi.co/wp-content/uploads/2023/06/mapa-latam-FINAL.png" alt="" />
-      </div>
       <div className='alies-contact-text-field'>
         <h2>Expande</h2>
         <h2>Tu negocio</h2>

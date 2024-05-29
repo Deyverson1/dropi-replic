@@ -64,6 +64,7 @@ button:hover {
 .alies-contact-container {
   background-color: #ec6f2d;
   text-align: center;
+  padding-block: 4rem;
   background-image: url(https://dropi.co/wp-content/uploads/2023/06/FONDO-LATAM.png);
 }
 
