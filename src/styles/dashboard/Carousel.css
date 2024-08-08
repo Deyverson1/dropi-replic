@@ -1,91 +1,109 @@
-.carousel-container{
-    padding-top: 64px;
-    padding-bottom: 1rem;
+/* The provided code snippet is a CSS stylesheet that contains styling rules for a carousel component
+and its related elements. Here is a breakdown of what each part of the code is doing: */
+.carousel-container {
+  padding-top: 64px;
+  padding-bottom: 1rem;
 }
-.carousel-container h5{
-    font-size: 20px;
-    font-weight: 700;
-    color: #ec6f2d;
-    text-transform: uppercase;
-    text-align: center;
+
+.carousel-container h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ec6f2d;
+  text-transform: uppercase;
+  text-align: center;
 }
-.slide-container{
-    height: 92.55px;
+
+.slide-container {
+  height: 92.55px;
 }
-.carousel{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-} 
-.carousel li{
-    display: flex;
-    justify-content: center;
-}   
-.carousel button{
-    margin: -50px;
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
+
+.carousel li {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel button {
+  margin: -50px;
+}
+
 .react-multiple-carousel__arrow--right {
 
-    background-color: white !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+  background-color: white !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
-.react-multiple-carousel__arrow--right::before{
-    color:#ec6f2d !important;
+
+.react-multiple-carousel__arrow--right::before {
+  color: #ec6f2d !important;
 }
-.react-multiple-carousel__arrow--left{
-    background-color: white !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+
+.react-multiple-carousel__arrow--left {
+  background-color: white !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 
 
 }
-.react-multiple-carousel__arrow--left::before{
-    color: #ec6f2d !important;
+
+.react-multiple-carousel__arrow--left::before {
+  color: #ec6f2d !important;
 }
-.react-multi-carousel-dot button{
-    
-    width: 10px !important;
-    height: 10px !important;
-    background: #FFCAAB;
-    border-color: #ffffff !important;
-    color: #ec6f2d;
+
+.react-multi-carousel-dot button {
+
+  width: 10px !important;
+  height: 10px !important;
+  background: #FFCAAB;
+  border-color: #ffffff !important;
+  color: #ec6f2d;
 }
-.react-multi-carousel-dot--active button{
-    background-color: #ec6f2e !important;
+
+.react-multi-carousel-dot--active button {
+  background-color: #ec6f2e !important;
 }
-.div-carousel{
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 3rem;
+
+.div-carousel {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 3rem;
 }
+
 /* .image{
     width: 98.33px;
     height: 65.55px;
 } */
 
-@media screen and (min-width:1200px){
-    .carousel-container{
-        padding: 100px;
-    }
+@media screen and (min-width:1200px) {
+  .carousel-container {
+    padding: 100px;
+  }
 }
 
-@media screen and (max-width: 1000px){
-    .carousel button{
-        padding-top: 20px;
-        margin: -30px;
-    }
-    .image{
-       height: 80px;
-       width: calc(100% - 20px); 
-    }
-    .react-multi-carousel-item {
-        /* width: auto!important; */
-    }
-    .slide-container{
-        padding: 0 20px;
-        display: flex;
-        gap: 10px;
-    }
+@media screen and (max-width: 1000px) {
+  .carousel button {
+    padding-top: 20px;
+    margin: -30px;
+  }
+
+  .image {
+    height: 80px;
+    width: calc(100% - 20px);
+  }
+
+  /* .react-multi-carousel-item {
+     width: auto!important; 
+  } */
+
+  .slide-container {
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+  }
 }

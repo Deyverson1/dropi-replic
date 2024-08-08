@@ -1,84 +1,106 @@
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    background-color: #EC6F2D ;
-    justify-content: space-around;
-    color: #ffffff;
-    /* bottom: 0;
+/* The CSS code you provided is styling a footer section of a website. Here's a breakdown of what each
+part of the code is doing: */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #EC6F2D;
+  justify-content: space-around;
+  color: #ffffff;
+  /* bottom: 0;
     position: relative;
     width: 100%;
     box-sizing: border-box; */
 }
-.footer-container a:hover, .footer-container Link:hover{
-    color: #f7d2bf;
-}
-.footer-links{
-    padding: 16px 16px;
+
+.footer-container a:hover,
+.footer-container Link:hover {
+  color: #f7d2bf;
 }
 
-.footer-image{
-    width: 92px;
-    padding-bottom: 1.5rem;
+.footer-links {
+  padding: 16px 16px;
 }
-div a{
-    text-decoration: none;
-    color: #ffffff;
+
+.footer-image {
+  width: 92px;
+  padding-bottom: 1.5rem;
 }
-.footer-links-us, .footer-links-terms, .footer-links-contact{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-    color: #ffffff;
+
+div a {
+  text-decoration: none;
+  color: #ffffff;
 }
-.footer-links-us, .footer-links-terms{
-    padding-bottom: 2rem;
+
+.footer-links-us,
+.footer-links-terms,
+.footer-links-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
 }
-.footer-final-section{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 16px 0 32px;
+
+.footer-links-us,
+.footer-links-terms {
+  padding-bottom: 2rem;
 }
-.footer-final-text{
-    font-size: 10px;
-    line-height: 15px;
-    font-weight: 500;
+
+.footer-final-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 16px 0 32px;
 }
-.footer-social-media{
-    padding-top: 2.5rem;
-    padding-bottom: .5rem;
+
+.footer-final-text {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 500;
 }
-.footer-social-media a{
-    padding: .55rem;
+
+.footer-social-media {
+  padding-top: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.footer-social-media a {
+  padding: .55rem;
 
 }
+
 @media screen and (min-width: 1200px) {
-    .footer-container{
-        padding: 0 200px;
-    }
-    .footer-links{
-       display: flex;
-       flex-direction: column;
-    }
-    .footer-final-section{
-        display: flex;
-    }
-    .links-container{
-        display: flex;
-        justify-content: space-between;
-    }
-    .footer-final-section{
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-evenly;
-        
-    }
-    .footer-social-media{
-        padding: 0;
-    }
+  .footer-container {
+    padding: 0 200px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-final-section {
+    display: flex;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-final-section {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+  .footer-social-media {
+    padding: 0;
+  }
 
 }

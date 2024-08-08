@@ -1,60 +1,75 @@
-.about-us-main{
-    box-sizing: border-box;
-    padding: 0 32px;
+/* This CSS code is styling a section related to an "About Us" page on a website. Here is a breakdown
+of what each part of the code is doing: */
+.about-us-main {
+  box-sizing: border-box;
+  padding: 0 32px;
 }
-.about-us-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.about-us-image{
-    width: 311px;
+
+.about-us-image {
+  width: 311px;
 }
-.about-us-tittle{
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 1.3rem;
+
+.about-us-tittle {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  margin-bottom: 1.3rem;
 }
-.about-us-span{
-    color: #ec6f2d;
+
+.about-us-span {
+  color: #ec6f2d;
 }
-.list-about-us{
-    display: flex;
-    padding-bottom: .3rem;
+
+.list-about-us {
+  display: flex;
+  padding-bottom: .3rem;
 }
-.icon-about-us{
-    padding-top: 3px;
+
+.icon-about-us {
+  padding-top: 3px;
 }
-.text-about-us{
-    padding-left: 7px;
-    font-size: 15px;
-    line-height: 23px;
-    color: #3d3d3d;
-    width: 272.5px;
+
+.text-about-us {
+  padding-left: 7px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #3d3d3d;
+  width: 272.5px;
 }
+
 @media screen and (min-width:1200px) {
-    .about-us-container{
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-    .about-us-main{
-        display: flex;
-        justify-content: center;
-    }
-    .about-us-image{
-        width: 460px;
-        padding: 20px;
-    }
-    .text-about-us{
-        width: 460px;
-    }
-    .list-container{
-        padding: 20px;
-    }
-    .text-about-us{
-        font-weight: 500;
-    }
+  .about-us-container {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-us-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-us-image {
+    width: 460px;
+    padding: 20px;
+  }
+
+  .text-about-us {
+    width: 460px;
+  }
+
+  .list-container {
+    padding: 20px;
+  }
+
+  .text-about-us {
+    font-weight: 500;
+  }
 }

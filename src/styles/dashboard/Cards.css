@@ -1,56 +1,66 @@
-.main-card-container{
-    box-sizing: border-box;
-    margin-top: 46px;
-    padding-bottom: 32px;
+/* The provided code snippet is a set of CSS styles for a card component. Here's a breakdown of what
+each part of the code is doing: */
+.main-card-container {
+  box-sizing: border-box;
+  margin-top: 46px;
+  padding-bottom: 32px;
 }
-.main-card-action{
-    width: 100%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+
+.main-card-action {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
-.card-content{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 41%;
-    flex-wrap: wrap;
-    gap: 8px;
+
+.card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 41%;
+  flex-wrap: wrap;
+  gap: 8px;
 }
-.main-card-image{
-    width: 48px;
-    height: 49px;
-    object-fit: contain;
-    vertical-align: middle;
+
+.main-card-image {
+  width: 48px;
+  height: 49px;
+  object-fit: contain;
+  vertical-align: middle;
 
 }
-.main-card-paragraph{
-    font-family: 'Montserrat', sans-serif;
-    padding-top: .7rem;
-    font-size: 16px;
-    font-weight: 500;
-    color: #3d3d3d;
+
+.main-card-paragraph {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: .7rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3d3d;
 }
+
 @media screen and (min-width: 1200px) {
-    .main-card-action{
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 0px;
-        
-    }
-    .card-content{
-        flex-direction: center;
-        width: 170px;
-        padding: 10px;
-    }
-    .main-card-image{
-        width: 64px;
-        height: 80px;
-        object-fit: contain;
-        vertical-align: middle;
-    }
-    .main-card-paragraph{
-        padding-top: 0;
-    }
+  .main-card-action {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+
+  }
+
+  .card-content {
+    flex-direction: center;
+    width: 170px;
+    padding: 10px;
+  }
+
+  .main-card-image {
+    width: 64px;
+    height: 80px;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  .main-card-paragraph {
+    padding-top: 0;
+  }
 }

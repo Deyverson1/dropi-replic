@@ -1,4 +1,6 @@
-.brand-footer-content{
+/* This CSS code is styling a section with the class `.brand-footer-content`. Here's a breakdown of
+what each part of the code is doing: */
+.brand-footer-content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -7,17 +9,20 @@
   padding-top: 4rem;
   padding-inline: 15rem;
 }
-.brand-footer-content div{
+
+.brand-footer-content div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.brand-footer-content h1{
+
+.brand-footer-content h1 {
   font-size: 40px;
   color: #101f31;
   text-transform: uppercase;
 }
-.brand-footer-content button{
+
+.brand-footer-content button {
   background-color: #FFBE47;
   border: 0px;
   font-size: 32px;
@@ -29,21 +34,25 @@
   color: #fff;
   text-transform: uppercase;
 }
-.brand-footer-content main{
+
+.brand-footer-content main {
   width: 100%;
 }
-.brand-footer-content main img{
+
+.brand-footer-content main img {
   width: 100%;
 }
 
 @media screen and (max-width: 427px) {
-  .brand-footer-content{
+  .brand-footer-content {
     padding-inline: 2px;
   }
-  .brand-footer-content h1{
+
+  .brand-footer-content h1 {
     font-size: 30px;
   }
-  .brand-footer-content button{
+
+  .brand-footer-content button {
     font-size: 20px;
   }
 

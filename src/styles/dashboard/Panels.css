@@ -1,56 +1,68 @@
-.panels{
-    box-sizing: border-box;
-    padding: 0 32px;
-    padding-top: 16px;
-    padding-bottom: 64px;
+/* The provided CSS code defines styles for a set of panels used in a web layout. Here's a breakdown of
+what each part of the code is doing: */
+
+.panels {
+  box-sizing: border-box;
+  padding: 0 32px;
+  padding-top: 16px;
+  padding-bottom: 64px;
 }
-.panels-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  
+
+.panels-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
 }
-.panels-list{
-    border-radius: 10px;
-    box-shadow: 0px 16px 24px 0px rgba(173, 173, 173, 0.5);
-    padding: 32px 32px;
-    margin-bottom: 15px;
-    background-image: url(https://dropi.co/wp-content/uploads/2023/05/feature_card_background.svg);
+
+.panels-list {
+  border-radius: 10px;
+  box-shadow: 0px 16px 24px 0px rgba(173, 173, 173, 0.5);
+  padding: 32px 32px;
+  margin-bottom: 15px;
+  background-image: url(https://dropi.co/wp-content/uploads/2023/05/feature_card_background.svg);
 }
-.panels-tittle{
-    font-size: 20px;
-    font-weight: 500;
-    padding: 1rem;
+
+.panels-tittle {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1rem;
 }
-.panels-text{
-    font-size: 14px; 
-    line-height: 21px;
-    font-weight: 500;
-    color: #3d3d3d;
-    padding-bottom: 1rem;
+
+.panels-text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #3d3d3d;
+  padding-bottom: 1rem;
 }
-.btn-panels{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    padding: .6rem 1.5rem;
+
+.btn-panels {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: .6rem 1.5rem;
 }
-.btn-panels:hover{
-    scale: 1.05;
+
+.btn-panels:hover {
+  scale: 1.05;
 }
+
 @media screen and (min-width: 1200px) {
-    .panels-container{
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-    }
-    .panels-list{
-        width: 300px; 
-    }
-    .panels-tittle{
-        padding: 1rem 2rem;
-    }
+  .panels-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .panels-list {
+    width: 300px;
+  }
+
+  .panels-tittle {
+    padding: 1rem 2rem;
+  }
 }

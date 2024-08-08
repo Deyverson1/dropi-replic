@@ -1,142 +1,161 @@
+/* The provided code is a CSS stylesheet containing styling rules for different elements of a web page.
+Here's a breakdown of what each section is doing: */
 
 /* text */
-.textFullContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+.textFullContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
-.textTitle{
-    font-size: 32px;
-    line-height: 32px;
-    font-weight: 700;
-    color: #3d3d3d;
-    text-transform: uppercase;
-} 
-.containerText{
-    margin: 7px 8px 8px 8px;
-    padding: 10px 20px 10px 20px;
-    background-color: #ec6f2d;
-    border-radius: 48px 48px 48px 48px;
-    text-align: center;
-    box-sizing: border-box;
-    width: 310px;
-    text-align: center;
-} 
-.textDropiCard{
-    text-align: center;
-    font-size: 37px;
-    line-height: 37px;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
-    cursor: default;
+
+.textTitle {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #3d3d3d;
+  text-transform: uppercase;
 }
+
+.containerText {
+  margin: 7px 8px 8px 8px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ec6f2d;
+  border-radius: 48px 48px 48px 48px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 310px;
+  text-align: center;
+}
+
+.textDropiCard {
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: default;
+}
+
 /* image */
 
-.imageDiv{
-    margin-top: 2.5rem;
-    background-color: #ec6f2d;
-    padding: 0px 100px;
+.imageDiv {
+  margin-top: 2.5rem;
+  background-color: #ec6f2d;
+  padding: 0px 100px;
 }
-.imageDiv img{
-    width: 100%;
+
+.imageDiv img {
+  width: 100%;
 }
 
 /* text second*/
-.secondTextFullContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin: 4rem 0;
-    margin-bottom: 0rem;
+.secondTextFullContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+  margin-bottom: 0rem;
 }
-.secondTextTitle{
-    font-size: 32px;
-    line-height: 32px;
-    font-weight: 700;
-    color: #3d3d3d;
-    text-transform: uppercase;
+
+.secondTextTitle {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #3d3d3d;
+  text-transform: uppercase;
 }
-.secondContainerText{
-    margin: 7px 8px 8px 8px;
-    padding: 10px 20px 10px 20px;
-    background-color: #ec6f2d;
-    border-radius: 48px 48px 48px 48px;
-    text-align: center;
-    box-sizing: border-box;
-    width: 310px;
-    text-align: center;
+
+.secondContainerText {
+  margin: 7px 8px 8px 8px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ec6f2d;
+  border-radius: 48px 48px 48px 48px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 310px;
+  text-align: center;
 }
-.secondTextDropi{
-    text-align: center;
-    font-size: 37px;
-    line-height: 37px;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
+
+.secondTextDropi {
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
 }
+
 /* Infographic */
-.infographic{
-    margin-top: 1rem;
-    background-color: #ffffff;
-    padding: 0px 200px;
+.infographic {
+  margin-top: 1rem;
+  background-color: #ffffff;
+  padding: 0px 200px;
 }
-.infographic img{
-    width: 100%;
+
+.infographic img {
+  width: 100%;
 }
 
 /* END */
-.contactDropicard{
-    background-color: #ec6f2d;
-    text-align: center;
-    padding: 4rem;
-    padding-bottom: 1.6rem;
+.contactDropicard {
+  background-color: #ec6f2d;
+  text-align: center;
+  padding: 4rem;
+  padding-bottom: 1.6rem;
 }
-.contactDropicard button{
-    font-size: 16px;
-    font-weight: 700;
-    color: #ec6f2d;
-    border: none;
-    border-radius: 8px;
-    padding:  15px 30px;
-    margin: .7rem 0;
-    text-transform: uppercase;
-    background-color: #ffffff;
-    line-height: 16px;
+
+.contactDropicard button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ec6f2d;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  margin: .7rem 0;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  line-height: 16px;
 }
 
 .contactDropicardtextTitle {
-    font-size: 28px;
-    font-weight: 700;
-    color: #ffffff;
-    padding-bottom: .7rem;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: .7rem;
 }
-.contactDropicard span{
-    font-size: 42px;
-    font-weight: 800;
-    color: #ffffff;
+
+.contactDropicard span {
+  font-size: 42px;
+  font-weight: 800;
+  color: #ffffff;
 }
-.contactDropicardcontainerText button:hover{
-    cursor: pointer;
+
+.contactDropicardcontainerText button:hover {
+  cursor: pointer;
 }
-.mobile{
-    display: none;
+
+.mobile {
+  display: none;
 }
 
 @media screen and (max-width: 426px) {
-   
-    .imageDiv{
-        padding: 0;
-    }
-    .infographic{
-        padding: 0;
-        padding-inline: 20px;
-    }
-    .mobile{
-        display: flex;
-    }
-    .desktop{
-        display: none;
-    }
+
+  .imageDiv {
+    padding: 0;
+  }
+
+  .infographic {
+    padding: 0;
+    padding-inline: 20px;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
 }

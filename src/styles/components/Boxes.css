@@ -1,3 +1,5 @@
+/* This CSS code is styling a layout for a webpage with boxes and articles. Here's a breakdown of what
+each part of the code is doing: */
 .boxes-container {
   display: flex;
   padding-inline: calc(17%);

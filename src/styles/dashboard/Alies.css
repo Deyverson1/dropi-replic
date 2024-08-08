@@ -1,3 +1,5 @@
+/* The provided CSS code defines styles for different sections of a webpage. Here is a breakdown of
+what each part of the code is doing: */
 .alies-cap-container {
   height: 282px;
   background-image: url("https://dropi.co/wp-content/uploads/2023/08/patron-1024x659.png");
@@ -120,7 +122,8 @@ button:hover {
   padding: 12px 24px;
   text-transform: uppercase;
 }
-.alies-contact-text-field button:hover{
+
+.alies-contact-text-field button:hover {
   outline: 4px solid #f5ad85;
 }
 

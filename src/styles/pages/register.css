@@ -1,6 +1,7 @@
+/* This CSS code is styling a container with the class `.register-container-val`. */
 .register-container-val {
   background-image: url(https://dropi.co/wp-content/uploads/2023/05/home_video_thumb.png);
-  height:100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +10,7 @@
 }
 
 @media screen and (max-width: 427px) {
-  .register-container-val{
+  .register-container-val {
     height: 200px;
   }
 }

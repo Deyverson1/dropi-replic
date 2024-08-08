@@ -1,70 +1,83 @@
-.main-content{
-    box-sizing: border-box;
+/* The CSS code you provided is styling a main video section on a webpage. Here's a breakdown of what
+each part of the code is doing: */
+.main-content {
+  box-sizing: border-box;
 }
-.main-video{
-    width: 100%;
-    min-height: 50vh;
-    object-fit: cover;
+
+.main-video {
+  width: 100%;
+  min-height: 50vh;
+  object-fit: cover;
 }
-.main-video-text-container{
-    position: absolute;
-    width: 100%;
-    top: 31%;
-    color: white;
-    text-transform: uppercase;
-    z-index: 10;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+
+.main-video-text-container {
+  position: absolute;
+  width: 100%;
+  top: 31%;
+  color: white;
+  text-transform: uppercase;
+  z-index: 10;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
-.main-video-lema{
-    font-size: 14px;
+
+.main-video-lema {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+}
+
+.main-video-lema-type {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.main-video-action {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-video-action span {
+  font-weight: 800;
+
+}
+
+@media screen and (min-width:1200px) {
+  .main-video {
+    max-height: 75vh;
+  }
+
+  .main-video-text-container {
+    top: 34%;
+  }
+
+  .main-video-lema {
+    font-size: 42px;
     font-weight: 900;
-    line-height: 14px;
-}
-.main-video-lema-type{
+    line-height: 42px;
+    color: #ffffff;
+  }
+
+  .main-video-lema-type {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 90px;
+  }
+
+  .main-video-action {
     font-size: 28px;
-    font-weight: 900;
-}
-.main-video-action{
-    font-size: 14px;
+    line-height: 28px;
+
     font-weight: 500;
-}
-.main-video-action span{
+  }
+
+  .main-video-action span {
     font-weight: 800;
-    
+  }
 }
 
-@media screen and (min-width:1200px){
-    .main-video{
-        max-height: 75vh;
-    }
-    .main-video-text-container{
-        top: 34%;
-    }
-
-    .main-video-lema{
-        font-size: 42px;
-        font-weight: 900;
-        line-height: 42px;
-        color: #ffffff;
-    }
-    .main-video-lema-type{
-        font-size: 90px;
-        font-weight: 900;
-        line-height: 90px;
-    }
-    .main-video-action{
-        font-size: 28px;
-        line-height: 28px;
-       
-        font-weight: 500;
-    }
-    .main-video-action span{
-        font-weight: 800;
-    }
-}
-@media screen and (min-width:768px){
-    .main-video-text-container{
-        top: 33%;
-    }
+@media screen and (min-width:768px) {
+  .main-video-text-container {
+    top: 33%;
+  }
 }

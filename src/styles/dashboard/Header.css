@@ -1,99 +1,119 @@
-.navigation-header{
-    /* display: flex; */
-    padding-block: .7rem;
-    position: relative;
-    z-index: 99;
-    background-color: transparent;
+/* The provided code snippet is a CSS code block defining styles for a navigation header component and
+its various elements. Here's a breakdown of what each part of the code is doing: */
+
+.navigation-header {
+  /* display: flex; */
+  padding-block: .7rem;
+  position: relative;
+  z-index: 99;
+  background-color: transparent;
 }
-.navigation-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-    /* width: 100%; */
-    padding-left: 10px;
-    padding-right: 10px;
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  /* width: 100%; */
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.navigation-image{
-    width: 100px;
-    max-width: 100px;
+
+.navigation-image {
+  width: 100px;
+  max-width: 100px;
 }
-.navigation-icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333333;
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    width: fit-content;
-    padding: 2px;
-    margin: 8px 15px;
+
+.navigation-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: fit-content;
+  padding: 2px;
+  margin: 8px 15px;
 }
-.navigation-icon{
-    width: 22px;
-    padding: 5.5px;
+
+.navigation-icon {
+  width: 22px;
+  padding: 5.5px;
 }
-.navigation-links-container{
-    display: none;
+
+.navigation-links-container {
+  display: none;
 }
-.nav-mobile-container{
-    width: 100%;
-    margin-top: 11px;
-    position: absolute;
-    background-color: #fff;
+
+.nav-mobile-container {
+  width: 100%;
+  margin-top: 11px;
+  position: absolute;
+  background-color: #fff;
 }
-.nav-mobile{
-    display: flex;
-    flex-direction: column;
+
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
 }
-.navigation-button{
-    color: white !important;
+
+.navigation-button {
+  color: white !important;
 }
-.li-nav-mobile{
-    /* color: #333333; */
-    padding-inline: 20px;
-    padding-block: 20px;
-    font-size:18px;
-    line-height: 26px;
-    color: rgb(85, 89, 92);
+
+.li-nav-mobile {
+  /* color: #333333; */
+  padding-inline: 20px;
+  padding-block: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(85, 89, 92);
 }
+
 @media screen and (min-width: 1000px) {
-    .navigation-header{
-        padding: 1.1rem 0;
-    }
-    .navigation-container{
-        justify-content: space-evenly;
-        gap: 200px;
-    }
-    .navigation-icon-container{
-        display: none;
-    }
-    .navigation-links-container{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-    .navigation-links-container a{
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        color: #5b5b5b;
-    }
-    .navigation-links-container a:hover{
-        color: #808080;
-    }
-    .navigation-button{
-        padding: 8px 15px;
-        background-color: #eC6f2d;
-        border: none;
-        border-radius: 20px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        color: #ffffff;
-    }
-    .nav-mobile-container{
-        display: none;
-    }
+  .navigation-header {
+    padding: 1.1rem 0;
+  }
+
+  .navigation-container {
+    justify-content: space-evenly;
+    gap: 200px;
+  }
+
+  .navigation-icon-container {
+    display: none;
+  }
+
+  .navigation-links-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navigation-links-container a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #5b5b5b;
+  }
+
+  .navigation-links-container a:hover {
+    color: #808080;
+  }
+
+  .navigation-button {
+    padding: 8px 15px;
+    background-color: #eC6f2d;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  .nav-mobile-container {
+    display: none;
+  }
 }

@@ -1,3 +1,5 @@
+/* The provided code is a React functional component named `TwoColumn`. Here is a breakdown of what
+each part of the code is doing: */
 import '../styles/components/twoColumn.css'
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

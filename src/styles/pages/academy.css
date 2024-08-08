@@ -1,3 +1,6 @@
+/* The CSS code you provided is styling elements for an academy website. Here's a breakdown of what
+each part of the code is doing: */
+
 .academy-content {
   display: flex;
   flex-direction: column;
@@ -5,10 +8,12 @@
   justify-content: center;
   aspect-ratio: 2.33333;
 }
+
 .academy-content video {
   height: 100%;
   object-fit: cover;
 }
+
 .academy-cards-content {
   display: flex;
   align-items: center;
@@ -16,6 +21,7 @@
   padding-inline: 8rem;
   gap: 20px;
 }
+
 .academy-card {
   display: flex;
   flex-direction: column;
@@ -26,22 +32,27 @@
   padding-block: 30px;
   box-shadow: 0 0 17px rgba(0, 0, 0, 0.2);
 }
+
 .academy-card h1 {
   text-transform: uppercase;
 }
+
 .academy-card h2 {
   color: #EC6F2D;
   text-transform: uppercase;
   min-height: 40px;
 }
+
 .academy-card div {
   width: 55%;
   height: 55%;
 }
+
 .academy-card div img {
   width: 100%;
 }
-.academy-card button{
+
+.academy-card button {
   background-color: #EC6F2D;
   border: 2px solid #EC6F2D;
   border-radius: 20px;
@@ -50,12 +61,13 @@
   padding-block: 10px;
   padding-inline: 17px;
 }
-.academy-card button:hover{
-  outline: 3px solid #FC9F6D ;
+
+.academy-card button:hover {
+  outline: 3px solid #FC9F6D;
 }
 
 @media screen and (max-width: 427px) {
-  .academy-cards-content{
+  .academy-cards-content {
     flex-wrap: wrap;
     padding: 40px;
   }

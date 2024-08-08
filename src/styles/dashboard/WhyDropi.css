@@ -1,58 +1,73 @@
-.why-us-main{
-    box-sizing: border-box;
-    padding: 0 32px;
+/* This block of CSS code is defining styles for a section related to showcasing reasons why to choose
+a particular service or product. Here's a breakdown of what each class is styling: */
+
+.why-us-main {
+  box-sizing: border-box;
+  padding: 0 32px;
 }
-.why-us-container{
+
+.why-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-us-image {
+  width: 311px;
+}
+
+.why-us-tittle {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  margin-bottom: 1.3rem;
+}
+
+.why-us-span {
+  color: #ec6f2d;
+}
+
+.list-why-us {
+  display: flex;
+  padding-bottom: .3rem;
+}
+
+.icon-why-us {
+  padding-top: 3px;
+}
+
+.text-why-us {
+  padding-left: 7px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #3d3d3d;
+  width: 272.5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .why-us-container {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .why-us-main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.why-us-image{
-    width: 311px;
-}
-.why-us-tittle{
-    font-size: 24px; 
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 1.3rem;
-}
-.why-us-span{
-    color: #ec6f2d;
-}
-.list-why-us{
-    display: flex;
-    padding-bottom: .3rem;
-}
-.icon-why-us{
-    padding-top: 3px;
-}
-.text-why-us{
-    padding-left: 7px;
-    font-size: 15px;
-    line-height: 23px;
-    color: #3d3d3d;
-    width: 272.5px;
-}
-@media screen and (min-width: 1200px){
-    .why-us-container{
-        flex-direction: row-reverse;
-        justify-content: center;
-        width: 100%;
-    }
-    .why-us-main{
-        display: flex;
-        justify-content: center;
-    }
-    .why-us-image{
-        width: 460px;
-        padding: 20px;
-    }
-    .text-why-us{
-        width: 460px;
-        font-weight: 500;
-    }
-    .list-container{
-        padding: 20px;
-    }
+    justify-content: center;
+  }
+
+  .why-us-image {
+    width: 460px;
+    padding: 20px;
+  }
+
+  .text-why-us {
+    width: 460px;
+    font-weight: 500;
+  }
+
+  .list-container {
+    padding: 20px;
+  }
 }

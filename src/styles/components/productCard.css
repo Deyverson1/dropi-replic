@@ -1,3 +1,5 @@
+/* This is a CSS code snippet defining styles for a product card component. Here's a breakdown of what
+each part of the code is doing: */
 .product-card-container {
   display: flex;
   flex-direction: row;

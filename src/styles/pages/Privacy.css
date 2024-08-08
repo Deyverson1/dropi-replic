@@ -1,3 +1,6 @@
+/* The CSS code you provided is styling a container with the class `.privacy-container` and its child
+elements. Here's a breakdown of what each part of the code is doing: */
+
 .privacy-container {
   display: flex;
   flex-direction: column;
@@ -41,7 +44,8 @@
     padding-inline: 10px;
     padding-block: 20px;
   }
-  .privacy-container span{
+
+  .privacy-container span {
     color: palevioletred;
     text-decoration: underline;
     ;
