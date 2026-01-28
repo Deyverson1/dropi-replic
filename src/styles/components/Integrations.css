@@ -2,7 +2,7 @@
 dropshippers on a webpage. Here's a breakdown of what the code is doing: */
 /* Dropshippers */
 
-.integrations{
+.integrations {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,14 +12,14 @@ dropshippers on a webpage. Here's a breakdown of what the code is doing: */
   gap: 10px;
 }
 
-.integrations h1{
+.integrations h1 {
   font-size: 40px;
   color: #101f31;
   text-transform: uppercase;
 }
 
-.integrations button{
-  background-color: #F39A3D;
+.integrations button {
+  background-color: #f39a3d;
   border: 0px;
   font-size: 18px;
   color: #fff;
@@ -54,30 +54,31 @@ dropshippers on a webpage. Here's a breakdown of what the code is doing: */
 .integrations-card div {
   width: 55%;
   height: 55%;
+  padding-bottom: 20px;
 }
 .integrations-card div img {
   width: 100%;
   scale: 1.3;
 }
-.integrations-card button{
-  background-color: #EC6F2D;
-  border: 2px solid #EC6F2D;
+.integrations-card button {
+  background-color: #ec6f2d;
+  border: 2px solid #ec6f2d;
   border-radius: 20px;
   margin-top: 30px;
   font-size: 16px;
   padding-block: 10px;
   padding-inline: 27px;
 }
-.integrations-card button:hover{
-  outline: 3px solid #FC9F6D ;
+.integrations-card button:hover {
+  outline: 3px solid #fc9f6d;
 }
 
 @media screen and (max-width: 427px) {
-  .integrations-cards-content{
+  .integrations-cards-content {
     flex-wrap: wrap;
     padding: 40px;
   }
-  .integrations-card{
+  .integrations-card {
     width: 100%;
     padding-inline: 0px;
   }

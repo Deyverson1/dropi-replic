@@ -8,11 +8,12 @@ breakdown of what each part of the code is doing: */
   color: #ffff;
   border-radius: 50px;
   padding: 10px 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   line-height: 28px;
   font-weight: 800;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 5vh;
   text-transform: uppercase;
 }
 
